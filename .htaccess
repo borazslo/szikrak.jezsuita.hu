@@ -34,6 +34,7 @@ DirectoryIndex index.php index.html index.htm
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
+  RewriteBase /szikrak.jezsuita.hu/
 
   # Block access to "hidden" directories whose names begin with a period. This
   # includes directories used by version control systems such as Subversion or
@@ -57,35 +58,26 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 ## END: FeedBurner redirects&nbsp;
 
 ## START: szikrak generator
-
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^([1-9])/(0[1-9]|[12][0-9]|3[01])$ /0$1/$2 [L,R=301]
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^(0[1-9])/([1-9])$ /$1/0$2 [L,R=301]
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^([1-9])/([1-9])$ /0$1/0$2 [L,R=301]
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
+	
+	RewriteRule  ^([1-9])/(0[1-9]|[12][0-9]|3[01])$ 0$1/$2 [L,R=301]	
+	RewriteRule  ^(0[1-9])/([1-9])$ /$1/0$2 [L,R=301]	
+	RewriteRule  ^([1-9])/([1-9])$ /0$1/0$2 [L,R=301]	
 	RewriteRule  ^([1-9])$ /0$1 [L,R=301]
+		
+	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])$ index.php?m=$1&d=$2 [L]
+	
+	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/image$ image.php?d=$1/$2 [L]
+	
+	RewriteRule  ^(0[1-9]|1[012])$ index.php?m=$1 [L]
 
+	RewriteRule ^(tema|temak)(/|)$ index.php?p=tema [L]
 	
-	
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])$ /index.php?m=$1&d=$2 [L]
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/image$ /image.php?d=$1/$2 [L]
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^(0[1-9]|1[012])$ /index.php?m=$1&p=ho [L]
-
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule ^(tema|temak)(/|)$ /index.php?p=tema [L]
-	
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule ^tema/(.+)$ /index.php?p=tema&tag=$1 [L]
-	
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule ^(HH/NN|txt|veletlen)$ /index.php?p=$1 [L]
-	Rewritecond %{http_host} ^szikrak\.jezsuita\.hu 
-	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(txt)$ /index.php?m=$1&d=$2&p=txt [L]
+	RewriteRule ^rss.xml$ rss.php [L]
+		
+	RewriteRule ^tema/(.+)$ index.php?tag=$1 [L]
+		
+	RewriteRule ^(HH/NN|txt|veletlen)$ /index.php?p=$1 [L]	
+	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(txt)$ index.php?m=$1&d=$2&p=txt [L]
 	
   # Pass all requests not referring directly to files in the filesystem to
   # index.php. Clean URLs are handled in drupal_environment_initialize().

@@ -28,7 +28,7 @@ header('Content-type: text/xml');
 	-->
 		<item>
 			<guid isPermaLink="false"><?php echo date('Y').preg_replace('/\//','-',$szikra['url']);  ?></guid>			
-			<title><?php echo $pageTitle." - ".$honapok[$szikra['month']]." ".$szikra['day']."."; ?></title>
+			<title><?php echo $pageTitle." - ".$szikra['dateHun']; ?></title>
 			<description><?php echo $szikra['text']; ?></description>
 			<link><?php echo $url.$szikra['url']; ?></link>			
 			<image:image xmlns:image="http://szikrak.jezsuita.hu/image.php?d=<?php echo trim($szikra['url'],'/'); ?>" />

@@ -1,9 +1,9 @@
 ﻿<?php
 $pageTitle =  'Ignáci Szikrák';
-$pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy "normális" lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (...Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
+$pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy „normális” lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
 $pageCategory = 'spirituality';
 $pageCopyright = 'JTMR - Jézus Társasága Magyarországi Rendtartománya';
-$url = 'http://szikrak.jezsuita.hu';
+$url = 'http://devserver.hu/szikrak.jezsuita.hu';
 	          
 $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpróbálja més sokkal finomabbá tenni, és az aggodalmaskodás szélsőséges fokára juttatni, hogy akit így nyomorultul összezavart, végül a lelki fejlődés útjától letérjen.
 12	2	Gyakorlatból és tapasztalatból fogjuk megtanulni, hogy nem a restek és a lanyhák, hanem az Isten szolgálatában buzgók és serények élvezik a lelki békét és nyugalmat.
@@ -504,6 +504,7 @@ foreach($rows as $row) {
 	$szikrak[$fields[0]][$fields[1]] = array(
 		"month" => $fields[0],
 		"day" => $fields[1],
+		"dateHun" => $honapok[$fields[0]]." ".$fields[1].".",
 		"text" => $fields[2],
 		"url" => '/'.sprintf('%02d', $fields[0]).'/'.sprintf('%02d', $fields[1])
 	);
