@@ -1,0 +1,79 @@
+
+div#single_thought p {
+  font:25px 'Georgia, Times New Roman';
+  color:#fff;
+  padding:10px 15px;
+  margin:0;
+}
+
+div#full_prayer p {
+  font:22px 'Georgia, Times New Roman';
+  border-bottom: 1px solid rgba(255, 255, 255, .1);;
+  padding: 15px;
+  margin:0;
+  color:#bbb;
+}
+
+div#home {
+	background-color: #BA0527;
+  background-color: #282828;
+  padding: 0;
+  margin: 0;
+/*
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#333),to(#000));
+  background-image: -webkit-linear-gradient(#333,#000);
+  background-image: -moz-linear-gradient(#333,#000);
+  background-image: -ms-linear-gradient(#333,#000);
+  background-image: -o-linear-gradient(#333,#000);
+  background-image: linear-gradient(#333,#000);
+*/
+}
+
+div#home_header {
+  background:none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+}
+
+div#home_header h1 {
+  font-size:26px;
+  color:#686868;
+  font-weight: normal;
+  margin: 0;
+  padding:15px;
+  line-height: 26px;
+}
+
+a#home_setup, a#home_help, a#home_refresh {
+  display: block;
+  height: 60px; width: 60px;
+  float: right;
+  background-size: contain;
+}
+
+a#home_refresh {  background-image: url('img/btn_refresh.png'); }
+a#home_setup {  background-image: url('img/btn_setup.png'); }
+a#home_help {  background-image: url('btn_help.png'); }
+
+a.rotated {
+  -webkit-animation-name:rotateThis;
+  -webkit-animation-duration:1s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+}
+
+@-webkit-keyframes rotateThis {
+  from{-webkit-transform:rotate(360deg)}
+  to{-webkit-transform:rotate(0deg)}
+}
+
+a#home_setup span, a#home_help span, a#home_refresh span {
+  display: none;
+}
+
+div#full_prayer p.dyn {
+  /*background: url('img/arr-l.png') left center  no-repeat, url('img/arr-r.png') right center  no-repeat;
+  background-size: 8px 16px, 8px 16px;*/
+  color:#fff;
+}
