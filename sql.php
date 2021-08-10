@@ -1,8 +1,10 @@
-﻿
-<?php
-//echo"off"; exit;
-
-if(1==1) { //szikrak
+﻿<?php
+$pageTitle =  'Ignáci Szikrák';
+$pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy "normális" lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (...Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
+$pageCategory = 'spirituality';
+$pageCopyright = 'JTMR - Jézus Társasága Magyarországi Rendtartománya';
+$url = 'http://szikrak.jezsuita.hu';
+	          
 $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpróbálja més sokkal finomabbá tenni, és az aggodalmaskodás szélsőséges fokára juttatni, hogy akit így nyomorultul összezavart, végül a lelki fejlődés útjától letérjen.
 12	2	Gyakorlatból és tapasztalatból fogjuk megtanulni, hogy nem a restek és a lanyhák, hanem az Isten szolgálatában buzgók és serények élvezik a lelki békét és nyugalmat.
 12	3	A szerzetesközösségek fennmaradása szinte teljesen az eredeti szellem megőrzésétől függ.
@@ -134,7 +136,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 8	7	A mások által elkövetett hiba – ami emberi dolog – tükör legyen számodra, melyben azt kell meglátnod, hogy milyen rútságot kell magadból eltávolítanod.
 8	8	Aki először magának helyesel, később másoktól is könnyen megköveteli, hogy helyeseljenek neki.
 8	9	Úgy tegyünk mindnet, hogy dicséret keresése távol legyen cselekedetünktől: de olyan legyen minden tettünk, hogy abban semmit se lehessen joggal kifogásolni.
-8	10	Teljesen ismerd meg az ember, mielőtt barátjává válnál.
+8	10	Teljesen ismerd meg az embert, mielőtt barátjává válnál.
 8	11	Ó, mennyit veszít nemcsak szabadságából, hanem tekintélyéből és jó hírnevéből is az, aki ajándékot fogad el.
 8	12	Ne dönts semmiről, ha lelked akár a heves érzelem, akár a levertség állapotában van, hanem amikor lecsillapodott a hév, kövesd azt, amit az érett értelem, s nem a pillanatnyi fellángolás tanácsol.
 8	13	Úgy rendezd a benső embert, hogy annak rendje a külső emberre is kiáradjon.
@@ -369,9 +371,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 1	3	Hiába vesztegeti a fáradtságot az, aki mások erkölcsét akarja megjavítani és nem önmagán kezdi.
 1	2	Cselekvéseid első szabály ez legyen: Úgy bízz Istenben, mintha ügyeid sikere teljesen tőled függne és egyáltalán nem Istentől; mégis úgy vesd latba értük minden erőfeszítésedet, mintha te semmit sem tennél, hanem egyedül Isten.
 1	1	Mindent Isten nagyobb dicsőségére!';
-}
 
-if(2==2) { //megjegyzesek
 $megj="0000-01-01	Szent Ignác ezt a gondolatot – ha nem is pontosan ebben a formában – háromszázhetvenhatszor ismétli Konstitúcióiban – jegyzi meg Hevenesi. A „Mindent Isten nagyobb dicsőségére” (<i>Omnia ad maiorem Dei gloriam</i>) jelmondat magában foglalja az ignáci lelkiség három lényeges elemét. Mindenek előtt a radikális istenközpontúságot (<i>gloria Dei</i>), majd a bizalmat és az optimizmust, hogy a teremtmények, az életkörülmények, sőt végső soron minden (<i>omnia</i>) nem akadály, hanem segítő lehet az Istenhez vezető úton, s végül az állandó növekedésre, jobbra és többre való törekvést (<i>maior - magis</i>). 
 0000-01-05	A szikra dialektikus feszültségben fogalmazza meg az ima és a tevékenység, a kegyelem és a szabad akarat viszonyát. A szikra eredete nem világos, Ignác írásaiban sehol sem fordul elő ilyen erős megfogalmazásban az isteni és emberi oldal együttműködése. Nem véletlen, hogy a Scintillæ Ignatianæ későbbi kiadásaiban felcserélték a két alárendelt tagmondat alanyait („te” – „Isten”). Ennek ellenére az itt közölt változat fejezi ki helyesen az ignáci dialektikát. A helyes értelmezéshez segítséget nyújtanak P. Gaston Fessard SJ gondolatai P. Szabó Ferenc SJ tolmácsolásában (Kegyelem és szabadság az ignáci lelkiségben, in Lelkigyakorlatok, Korda, Kecskemét, 1994, 15-16).
 0000-01-07	Szent Ignác Lelkigyakorlatainak közepén (Lgy 189) – szinte csak mellesleg odavetve – jelenik meg ez a gondolat, amely nemcsak az ignáci lelkiség, hanem minden spirituális fejlődés alaptörvénye és követelménye: az önközpontúságból a teközpontúságba való állandó átmenet.
@@ -426,9 +426,7 @@ $megj="0000-01-01	Szent Ignác ezt a gondolatot – ha nem is pontosan ebben a f
 0000-12-06	Az ellenkormányzás (<i>agere contra</i>) taktikája, amelyet gyakran javasol Szent Ignác a Lelkigyakorlatokban. Meggyőződése, hogy az ember nincs tehetetlenül kiszolgáltatva a kísértőnek, s képes természetes, ugyanakkor kegyelemmel átjárt képességeit és erőit a jó felé fordítani (pl. Lgy 319-320).
 0000-12-10	Mások buzgóságának (<i>diligentia</i>) és nagylelkűségének (<i>magnanimitas</i>) utánzása teszi lehetővé a mindig többre törekvő magatartást (<i>magis</i>). Szent Ignác azonban azt is hangsúlyozza, hogy a másik jó példájának utánzása csak megfontoltan és „testre szabottan”, azaz saját lehetőségeink figyelembe vételével történhet.
 0000-12-19	A <a href=\'http://szikrak.jezsuita.hu/11/07\'>november 7</a>-i szikra általánosabb megfogalmazása. Ignác szemében a megelőlegezett jóindulat biztosítja minden emberi kapcsolat alapját.";
-}
 
-if(3==3) { // targymutato
 $targymutato = 'emberszeretet: jan. 12; jan. 20; jan. 31; febr. 28; ápr. 6; ápr. 21; jún. 3; júl. 14; júl. 15; szept. 19; okt. 3; dec. 19.
 Isten akarata: febr. 8, nov. 29.
 Isten bőkezűsége: jan. 10; jan. 13; jan. 17; márc. 31; máj. 21; júl. 28; szept. 22; okt. 30; nov. 6; dec. 13; dec. 31.
@@ -494,65 +492,43 @@ Tudás – tudomány: febr. 10; febr. 16; márc. 7; júl. 17; aug. 2; szept. 1; 
 Választás: márc. 5; máj. 1; aug. 12; nov. 9; nov. 11; nov. 28; dec. 22.
 Vigasz – vigasztalanság: júl. 13; nov. 12; nov. 19; nov. 22.
 Viszálykodás: jan. 26; júl. 5.';
+
+$honapok = array('','Január','Február','Március','Április','Május','Június','Július','Augusztus','Szeptember','Október','November','December');
+	
+$szikrak = array();
+$tags = array();
+
+$rows = explode("\n",$adat);
+foreach($rows as $row) {
+	$fields = explode("	",$row);
+	$szikrak[$fields[0]][$fields[1]] = array(
+		"month" => $fields[0],
+		"day" => $fields[1],
+		"text" => $fields[2],
+		"url" => '/'.sprintf('%02d', $fields[0]).'/'.sprintf('%02d', $fields[1])
+	);
 }
 
-	function getconnection() {
-		$user="eleklaszlo";
-//		$password="karkizsicangi";
-		$password="elekl";
-
-		$database="ignaciszikrak";
-		@mysql_connect('localhost:3306',$user,$password) or die ("Can't connect to mysql");
-		@mysql_select_db($database) or die( "Unable to select database");
-	}
-	getconnection();
-/*
-	$sorok = explode("\n",$adat);
-	$c = 0;
-	foreach($sorok as $sor) {
-		$a = explode("	",$sor);
-		$c++;
-		$date = '0000-0'.$a[0]."-".$a[1];
-		//$query = "INSERT INTO szikrak (id, date ,szikra) VALUES ($c,'".$date."', '".$a[2]."' );";
-		$query = "UPDATE szikrak SET szikra = '".$a[2]."' WHERE date = '".$date."';";
-			if(!mysql_query($query)) print_R($query."\n<br>");
-	}
-
-	$sorok = explode("\n",$megj);
-	foreach($sorok as $sor) {
-		$a = explode("	",$sor);
-		$query = "UPDATE szikrak SET comm = '".$a[1]."' WHERE date = '".$a[0]."';";
-			if(!mysql_query($query)) print_R($query."\n<br>");
-			//echo "---".mysql_errno() . ": " . mysql_error(). "\n";
-	}
-
-	*/
-	$sorok = explode("\n",$targymutato);
-	$query = "UPDATE szikrak SET tags = '';";
-	if(!mysql_query($query)) print_R($query."\n<br>");
-	$hok = array('jan.' => '01','febr.' => '02','márc.' => '03','ápr.' => '04','máj.' => '05','jún.' => '06','júl.' => '07','aug.' => '08','szept.' => '09','okt.' => '10','nov.' => '11','dec.' => '12');
-	foreach($sorok as $sor) {
-		$tmp = explode(":",$sor);
-		
-		$tag = strtolower(trim($tmp[0]));
-		$dates = explode(";",$tmp[1]);
-		foreach($dates as $date) {
-			$tmp2 = explode(' ',trim($date));
-			if($tmp2[1] < 10) $tmp2[1] = '0'.$tmp2[1];
-//EZt MAjd megkéne csinálni			
-			$tmp2[1] = ereg_replace(array('Ö','Í','Ü','É'),array('ö','í','ü','é'),$tmp2[1]);
-			$tags[$hok[$tmp2[0]]."-".trim($tmp2[1])][] = $tag;
-		}
-		
-	}
-	ksort($tags);
-	foreach($tags as $date => $values) {
-		$query = "UPDATE szikrak SET tags = '".implode(', ',$values)."' WHERE date = '0000-".$date."';";	
-		if(!mysql_query($query)) echo $query." --- ".mysql_errno() . ": " . mysql_error(). "<br>";
-	}
-		
+$rows = explode("\n",$megj);
+foreach($rows as $row) {
+	$fields = explode("	",$row);
+	$szikrak[intval(substr($fields[0],5,2))][intval(substr($fields[0],8,2))]['comment'] = $fields[1];		
+}
 	
-	mysql_close();
-
-?>
-
+$rows = explode("\n",$targymutato);	
+$hok = array('jan.' => '01','febr.' => '02','márc.' => '03','ápr.' => '04','máj.' => '05','jún.' => '06','júl.' => '07','aug.' => '08','szept.' => '09','okt.' => '10','nov.' => '11','dec.' => '12');
+foreach($rows as $key => $row) {
+	$tmp = explode(":",$row);	
+	$tag = str_replace(array('Í','Ü','Ö','É'),array('í','ü','ö','é'), strtolower(trim($tmp[0])));		
+	$dates = explode(";",$tmp[1]);
+				
+	foreach($dates as $date) {
+		$tmp2 = explode(' ',trim($date));
+		if($tmp2[1] < 10) $tmp2[1] = '0'.$tmp2[1];
+		$tmp2[1] = trim($tmp2[1],'. ');			
+		$tags[$tag][] = intval($hok[$tmp2[0]]).'/'.intval($tmp2[1]);
+		
+		$szikrak[intval($hok[$tmp2[0]])][intval($tmp2[1])]['tags'][] = $tag;
+	}	
+}
+ksort($tags);

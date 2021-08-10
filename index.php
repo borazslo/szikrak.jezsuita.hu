@@ -1,11 +1,13 @@
 ﻿<?php 
-# echo phpnfo();
-//exit;
 
+ include 'sql.php';
+ 
+ print_r($szikrak);
+ 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-
+/*
 
 if (isset($_GET['p']) )  {
 	$p = $_GET['p'];
@@ -69,253 +71,7 @@ if($p == "rss") {
 }
 
 
-#FACEBOOK Stuff
-elseif($p == "fb") {
 
-
-	exit;
-	if( getvar('last_fb') != date('m-d') OR 4==4) {
-	if(date('H') >= 08) { // What is our timezone. Well well... 08 means 10 o'clock right now
-	
-
-echo "legyen";	
-
-		require_once __DIR__ . '/php-sdk-6/Facebook/Facebook.php'; // change path as needed
-		# 
-		#https://developers.facebook.com/tools/explorer/133165076817014/?method=GET&path=me%3Ffields%3Did%2Cname&version=v6.0
-		$fb = new \Facebook\Facebook(array(
-		  'app_id' => '133165076817014',
-		  'app_secret' => 'ac0cd376af662e58647f3e377daa5b35',
-		  'default_graph_version' => 'v6.0',
-		  'default_access_token' => 'EAAB5HOkZApHYBAByic86ncuVqPEpTyK1FXuw37q2QaBrDKMcc0qkiHobIZBAGIuRDZAzJasGc2UT9b00es2l1oaUzYDHOA7F0N9iX44nlIy3XadZBEx0PAjqUZAYKnziZBslvDpIoa1j2M7stF0sJO5TA5L0d0C82DqpltVKrZCfuwM3aJ4gfbDe4PWkdfDWXGwgwxtSl1LUaYj9vQrGpg1' // optional
-		));
-		
-			
-		$szikra = getszikra();
-		
-		$args = array(
-			'access_token' => $token,
-			'message'=> $szikra['szikra']."\n".$base_url.$szikra['m']."/".$szikra['d'],//"\n".rand(0,100000000),
-			);		
-		$post_id = $facebook->api("/".$pageId."/feed", 'post', $args);
-		
-		try {
-			  // Returns a `Facebook\FacebookResponse` object
-			  $response = $fb->post(
-				'/173292936064097/feed',
-				$args
-				
-			  );
-		} catch(Facebook\Exceptions\FacebookResponseException $e) {
-			  echo 'Graph returned an error: ' . $e->getMessage();
-			  exit;
-		} catch(Facebook\Exceptions\FacebookSDKException $e) {
-			  echo 'Facebook SDK returned an error: ' . $e->getMessage();
-			  exit;
-		}
-		$graphNode = $response->getGraphNode();
-		/* handle the result */
-
-
-		print_r($post_id);
-		
-exit;
-		// http://www.damnsemicolon.com/php/auto-post-facebook-with-facebook-sdk
-		require_once("php-graph-sdk 3.2.3/facebook.php");		
-		$fb = array(
-			'appId' => '133165076817014',
-			'secret' => 'ac0cd376af662e58647f3e377daa5b35',
-			'cookie' => true,
-			'domain' => $base_url,
-		);
-		$facebook = new Facebook($fb);
-
-
-		#OPTION for Facebook Session Destroy
-		if(isset($_GET['destroy'])) {
-			//   $facebook->setSession(null);
-			$facebook->destroySession();
-			setvar('access_token',false);
-			echo "Facebook session destroyed. Bye.<br/>";
-			# exit;
-		} else {
-			echo "[<a href=\"".$_SERVER['PHP_SELF']."?p=fb&destroy\">destroy</a>]<br/>";	
-		}
-
-		
-		$redirect = "http://szikrak.jezsuita.hu/index.php?p=fb";	
-		#CREATE Token from CODE
-		if ( isset($_GET['code']) AND $_GET['code']!='' ) {
-			$response = $facebook->makeRequest(
-	          'https://graph.facebook.com/oauth/access_token',
-	          $params = array('client_id' => $fb['appId'],
-	                          'client_secret' => $fb['secret'],
-	                          'redirect_uri' => $redirect,
-	                          'code' => $_GET['code']));
-			$response = json_decode($response);
-			if(isset($response->error)) {
-				echo $response->error->message."</br>";
-				exit;
-			} else {
-				$token = $response->access_token;
-				setvar('access_token',$token);
-		
-				$facebook->setAccessToken($token);
-				// make protected to public getUserFromAccessToken() in base_facebook.php!!
-				$user_id = $facebook->getUserFromAccessToken();
-			}
-		} else {
-			$token = getvar('access_token');
-			$facebook->setAccessToken($token);
-			$user_id = $facebook->getUser();		
-		}
-
-		#LOGIN for facebook
-		if ($user_id == 0 AND !isset($_GET['code'])) {    
-			$url = $facebook->getLoginUrl(array(
-				'canvas' => 0,
-				'fbconnect' => 1,
-				'redirect' => $redirect,
-				'scope' => 'manage_pages,publish_pages,read_insights,pages_show_list,user_status',
-			));	
-			#'scope' => 'manage_pages,offline_access,publish_stream',
-			$url = str_replace('%26destroy','',$url); 
-			echo"[<a href=".$url.">login</a>]<br/>";
-			exit;
-		}
-		
-		#We Are Happy With Facebook Rith Now
-		$pages = $facebook->api('/me/permissions', 'get', array('access_token'=>$token));		
-		print_r($pages);
-		
-
-
-		$pageId = '173292936064097';
-		$szikra = getszikra();
-		
-		$args = array(
-			'access_token' => $token,
-			'message'=> $szikra['szikra']."\n".$base_url.$szikra['m']."/".$szikra['d'],//"\n".rand(0,100000000),
-			);		
-		$post_id = $facebook->api("/".$pageId."/feed", 'post', $args);
-		print_r($post_id);
-
-
-		exit;
-
-			
-/*
-
-			$url = "https://www.facebook.com/dialog/oauth?client_id=".$fb['appId']."&redirect_uri=$redirect&scope=manage_pages,offline_access,publish_stream";
-			 				
-			$url = "https://graph.facebook.com/oauth/access_token?client_id=".$fb['appId']."&redirect_uri=".$redirect."&client_secret=".$fb['secret']."&code=".$_GET['code'];
-			$return = curlRedir($url);
-			
-			if( preg_match('/access_token":"(.*?)"/i',$return,$match);
-			print_r($return);
-			$token = $match[1];			
-			setvar('access_token',$token);
-		
-			$facebook->setAccessToken($token);
-			// make protected to public getUserFromAccessToken() in base_facebook.php!!
-			$user_id = $facebook->getUserFromAccessToken();	
-		}
-		exit;
-		if (!$user_id) {    
-		
-		}
-		else {		
-			$pages = $facebook->api("me/accounts", 'get', array('access_token'=>$token));		
-			print_r($pages);
-			foreach($pages['data'] as $item) {			
-				if($item[id] == '173292936064097') $page = $item;
-			}
-			setvar('access_token',$page['access_token']);
-		} */
-		/*
-		$me = $facebook->api("/me");
-		echo "<br>".$me['name']."<br>";
-		exit;
-		*
-		
-			$args = array(
-				'access_token' => getvar('access_token'),
-				'message'=> $szikra['szikra']."\n".$base_url.$szikra['m']."/".$szikra['d'],//"\n".rand(0,100000000),
-			);		
-			//$post_id = $facebook->api("/".$page['id']."/feed", 'post', $args);
-
-
-			#$args['caption'] = $args['message'];
-			unset($args['message']);		
-			#$args['url'] = $base_url."image.php?d=".$szikra['m']."/".$szikra['d'];
-			//$args['source'] = fopen('szikra_ures.jpg','r');
-			$filename = 'szikra_ures.jpg';
-			#$facebook->api->fileToUpload($filename);
-			
-	$file = fopen($filename,'r');;
-			#$args['source'] = fread($file, filesize($filename));
-			$args['url'] = $base_url.'szikra_ures.jpg';
-			$args['published'] = true;
-			print_r($args);
-
-		
-			$return = $facebook->api("/".$page['id']."/photos", 'post', $args);
-			print_r($return);
-			exit;
-
-
-
-	$response = $fb->post(
-	    '/{page-id}/photos',
-	    array (
-	      'url' => 'https://www.facebook.com/images/fb_icon_325x325.png',
-	      'published' => 'false',
-	    ),
-	    '{access-token}'
-	  );
-
-
-
-			$id = explode("_",$post_id['id']);
-			echo "<br>OK! Posted on ".
-					"<i><a href=\"https://www.facebook.com/pages/".$page['name']."/".$page['id']."\">".$page['name']."</a></i>'s wall: ".
-					"<a href=\"https://www.facebook.com/permalink.php?story_fbid=".$id[1]."&id=".$id[0]."\">".$post_id['id']."</a>";
-			setvar('last_fb',date('m-d'));
-			}
-		catch (FacebookApiException $e) {
-	        $err = "<br>Error! Unable to post on <i><a href=\"https://www.facebook.com/pages/".$page['name']."/".$page['id']."\">".$page['name']."</a></i>'s  wall: <strong>$e</strong>";
-			echo $err;
-		
-			$to      = 'eleklaszlosj@gmail.com';
-			$subject = 'szikrak.jezsuita.hu';
-			$message = $err."\n ".date('Y-m-d H:i:s');
-			$headers = 'From: eleklaszlosj@gmail.com' . "\r\n" .
-				'X-Mailer: PHP/' . phpversion();
-			mail($to, $subject, $message, $headers);
-		
-		}
-		if((isset($post_id) AND $szikra['megj']!='')) {
-			try {
-				$args = array(
-					'access_token' => $page['access_token'],
-					'message'=> strip_tags($szikra['megj']),
-				);		
-				$comment_id = $facebook->api("/".$post_id['id']."/comments", 'post', $args);
-				echo "<br>OK! Commented on <i>".
-						"<a href=\"https://www.facebook.com/permalink.php?story_fbid=".$id[1]."&id=".$id[0]."\">".$post_id['id']."</a></i>: ".
-						"<a href=\"https://www.facebook.com/permalink.php?story_fbid=".$id[1]."&id=".$id[0]."&comment_id=".$comment_id['id']."\">".$comment_id['id']."</a>";
-				}
-			catch (FacebookApiException $e) 
-			{    echo "<br>Error! Unable to comment on <i>".
-					"<a href=\"https://www.facebook.com/permalink.php?story_fbid=".$id[1]."&id=".$id[0]."\">".
-					$post_id['id']."</a></i>: <strong>$e</strong>";
-			}
-		}
-*/
-
-	} else { echo "<br>We are updating after 10 o'clock."; }
-	} else { echo "<br>We are updated this day."; }
-} 
 elseif($p == 'txt') {
 	$szikra = getszikra($m,$d);
 	echo $szikra['szikra'];
@@ -523,5 +279,5 @@ curl_setopt($go, CURLOPT_USERAGENT, $agent);
     return $data;
 	return $matches[1];
 }
-
+*/
  ?>
