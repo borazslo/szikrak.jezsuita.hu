@@ -1,9 +1,9 @@
-﻿<?php
-$pageTitle =  'Ignáci Szikrák';
+<?php
+$url = 'http://szikrak.jezsuita.hu';
+$pageTitle =  '<a href="'.$url.'">Ignáci Szikrák</a>';
 $pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy „normális” lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
 $pageCategory = 'spirituality';
 $pageCopyright = 'JTMR - Jézus Társasága Magyarországi Rendtartománya';
-$url = 'http://devserver.hu/szikrak.jezsuita.hu';
 	          
 $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpróbálja més sokkal finomabbá tenni, és az aggodalmaskodás szélsőséges fokára juttatni, hogy akit így nyomorultul összezavart, végül a lelki fejlődés útjától letérjen.
 12	2	Gyakorlatból és tapasztalatból fogjuk megtanulni, hogy nem a restek és a lanyhák, hanem az Isten szolgálatában buzgók és serények élvezik a lelki békét és nyugalmat.
@@ -143,7 +143,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 8	14	Aki meg akarja reformálni a világot, önmagával kezdje, különben hiába fáradozik.
 8	15	Ha felebarátod teljesen nyilvánvaló vétkére józan ésszel nem találsz mentséget, akkor se a hibázót, hanem a kísértés hevét okold, amelyben te jobban, vagy legalább éppen úgy elbuktál volna.
 8	16	A felebarátunk üdvösségéért való fáradozásban szükségünk van tekintélyre, de olyanra, amelyben semmi sincs a világ hiú tekintélyéből.
-8	17	Került a makacsságot, de ha egyszer valami jót elkezdtél, ragaszkodj hozzá, hogy attól se gyalázatos futás, se kétségbeesés el ne távolítson.
+8	17	Kerüld a makacsságot, de ha egyszer valami jót elkezdtél, ragaszkodj hozzá, hogy attól se gyalázatos futás, se kétségbeesés el ne távolítson.
 8	18	Keveset számít, ha a világot hanyagul szolgálod, az azonban elviselhetetlen, ha Istent szolgálod hanyagul.
 8	19	Valóban ritka az olyan ember, aki minden gyengeségét jól ismerné, hacsak Isten különösen fel nem tárja azokat neki.
 8	20	Azoknak, akik mások lelkével törődnek, semmi másra sincs olyan nagy szükségük, mint a megkülönböztetés lelkületére, különben, míg mások üdvösségéről gondoskodnak, veszélyeztetik a sajátjukat.

@@ -18,7 +18,7 @@ echo '<?xml version="1.0" encoding="UTF-8" ?>';
 	<channel>
 		<language>hu</language>
 		<link><?php echo $url; ?></link>
-		<title><?php echo $pageTitle; ?></title>
+		<title><?php echo strip_tags($pageTitle); ?></title>
 		<description><?php echo $pageDescription; ?></description>
 		<category><?php echo $pageCategory; ?></category>		
 		<copyright><?php echo $pageCopyright; ?></copyright>		
@@ -35,7 +35,7 @@ echo '<?xml version="1.0" encoding="UTF-8" ?>';
 	-->
 		<item>
 			<guid isPermaLink="false"><?php echo date('Y', $pubTime).preg_replace('/\//','-',$szikra['url']);  ?></guid>			
-			<title><?php echo $pageTitle." - ".$szikra['dateHun']; ?></title>
+			<title><?php echo strip_tags($pageTitle)." - ".$szikra['dateHun']; ?></title>
 			<description><?php echo $szikra['text']; ?></description>
 			<link><?php echo $url.$szikra['url']; ?></link>			
 			<image:image xmlns:image="http://szikrak.jezsuita.hu/image.php?d=<?php echo trim($szikra['url'],'/'); ?>" />

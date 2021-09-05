@@ -10,12 +10,12 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	
-		<title><?php echo $pageTitle; ?></title> 
+		<title><?php echo strip_tags($pageTitle); ?></title> 
 		
 		<meta property="fb:app_id" content="133165076817014" />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>" />
-		<meta property="og:title" content="<?php echo $pageTitle; ?>" />
+		<meta property="og:title" content="<?php echo strip_tags($pageTitle); ?>" />
 		<meta property="og:description" content="<?php echo $pageDescription; ?>" />
 		<?php if (isset($szikra)) : ?>
 		<meta property="og:image" content="<?php echo $url; ?>/image.php?d=<?php echo preg_replace('/^\//','',$szikra['url']); ?>" />
