@@ -41,7 +41,42 @@ else
 	
 /* Let's see what we have */
 
-if(isset($_GET['tag'])) {
+if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
+
+	switch ($format) {
+		case 'txt':
+			foreach($tags as $name => $days) {
+					echo $name.' ('.count($days).')'."\n";
+			}
+			exit;
+		case 'json':
+			header('Content-Type: application/json');			
+			$tmp = array();
+			foreach($tags as $name => $days) {
+				$tmp[$name] = array(
+					'name' => $name,
+					'url' => '/tema/'.$name,
+					'count' => count($days),
+					'days' => $days
+				);
+				
+			}
+			echo json_encode($tmp);
+			exit;
+		case 'html':
+			$pageTitle .= " - témák";
+			$content = '';
+			foreach($tags as $name => $days) {
+					$content .= '<p class="dyn" id="dyn_full"><a href="'.$url.'/tema/'.$name.'">'.$name.'</a> ('.count($days).')</p>';
+			}
+			include('html.php');
+			exit;
+	}
+
+	
+	
+
+} else if(isset($_GET['tag'])) {
 	// Témakör nézet
 	if(!isset($tags[$_GET['tag']])) 
 		die('Ilyen témakör nincs!');

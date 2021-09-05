@@ -59,23 +59,6 @@
 					 echo $content 
 								 
 				 ?>
-					
-				<!--<php elseif($p == 'tema' AND !isset($_REQUEST['tag'])): ?>
-					< php
-					
-					foreach($tags as $tag) {
-						echo '<p class="dyn" id="dyn_full"><a href="'.$base_url.'tema/'.$tag.'">'.$tag.'</a> ('.$tagscount[$tag].')</p>';
-					}
-					
-					?>			-->
-				<?php if (4 == 8 ): ?>
-					<php $szikrak = $szikra; foreach($szikrak as $szikra) { ?>
-						<p class="dyn" id="dyn_full"><?php echo trim($szikra['szikra']); 
-						?><?php if ($szikra['megj']!=''): ?><?php echo "<a title=\"".strip_tags($szikra['megj'])."\">*</a>"; ?><?php endif; ?>
-						<?php echo "- <a href=\"".$url.'/'.$szikra['m']."/".$szikra['d']."\">".$honapok[$szikra['m']]." ".$szikra['d'].".</a>"; ?></p>
-						
-					<php } ?>
-				<?php endif; ?>
 			</div>
 		</div><!-- /content -->
 	</div><!-- /page home -->
@@ -108,18 +91,19 @@
 					<p><a href="http://feeds.feedburner.com/ignaci_szikrak" title="Iratkozz fel, és kedvenc RSS olvasódban követheted a szikrákat.">RSS-ben</a></p>
 					<p><a href="http://twitter.com/ignaciszikrak" title="Napi egy tweet igazán nem sok.">Twitteren</a></p>
 				</div>
-				<div data-role="collapsible" data-iconpos="right">
+				<div data-role="collapsible" data-iconpos="right" data-collapsed="false">
 					<h3>A honlap titkai</h3>
 					<?php
 					$randm = sprintf('%02d', rand(1,12));
 					$randd = sprintf('%02d', rand(1,28));
 					
 					?>
-					<p>Valamennyi szikrát megkeresheted a <?php echo $url ?>/HH/NN formátummal. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>"><?php echo $url.'/'.$randm.'/'.$randd; ?></a></p>
-					<p>Egy-egy hónap összes szikráját is lekérheted. Például: <a href="<?php echo $url.'/'.$randm ?>"><?php echo $url.'/'.$randm; ?></a></p>
-					<p>Egy témához kapcsolódó minden mondás szintén elérhető. Például: <a href="<?php echo $url ?>/tema/választás"><?php echo $url; ?>/tema/választás</a></p>
-					<p>Választhatsz véletlen szikrát is a <a href="<?php echo $url; ?>/veletlen"><?php echo $url; ?>/veletlen</a> oldalon.
-					<p>Egész nyers szöveget kapsz, ha az url végére teszed, hogy „txt”. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>/txt" target="_blank"><?php echo $url.'/'.$randm.'/'.$randd; ?>/txt</a></p>
+					<p>Minden napnak van külön elérhetősége így az év valamennyi szikrját elérheted. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>"><?php echo '/'.$randm.'/'.$randd; ?></a></p>
+					<p>Egy-egy hónap összes szikráját is lekérheted. Például: <a href="<?php echo $url.'/'.$randm ?>"><?php echo '/'.$randm; ?></a></p>
+					<p>Egy témához kapcsolódó minden mondás szintén elérhető. Például: <a href="<?php echo $url ?>/tema/választás">/tema/választás</a></p>
+					<p>A témákat pedig kilistázhatod: <a href="<?php echo $url; ?>/temak">/temak</a></p>
+					<p>Választhatsz véletlen szikrát is a <a href="<?php echo $url; ?>/veletlen">/veletlen</a> oldalon.
+					<p>Speciális formátumokban is le lehet kérni az adatokat. Egész nyers szöveget kapsz, ha az url végére teszed, hogy „txt”. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>/txt" target="_blank"><?php echo '/'.$randm.'/'.$randd; ?>/txt</a>. Vagy json formátumban a „json” kiegészítővel. Például: <a href="<?php echo $url; ?>/tema/választás/json" target="_blank">/tema/választás/json</a></p>
 				</div>
 			</div>
 			<div align="center"><a href="http://jezsuita.hu"><img src="<?php echo $url; ?>/logo.png" alt="Jezsuiták" title="Készült a Jézus Társasása Magyarországi Rendtartománya támogatásával"></a></div>

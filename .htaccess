@@ -60,9 +60,12 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 ## START: szikrak generator
 	
 	RewriteRule  ^([1-9])/(0[1-9]|[12][0-9]|3[01])$ 0$1/$2 [L,R=301]	
-	RewriteRule  ^(0[1-9])/([1-9])$ /$1/0$2 [L,R=301]	
-	RewriteRule  ^([1-9])/([1-9])$ /0$1/0$2 [L,R=301]	
-	RewriteRule  ^([1-9])$ /0$1 [L,R=301]
+	RewriteRule  ^(0[1-9])/([1-9])$ $1/0$2 [L,R=301]	
+	RewriteRule  ^([1-9])/([1-9])$ 0$1/0$2 [L,R=301]	
+	RewriteRule  ^([1-9])$ 0$1 [L,R=301]
+	RewriteRule  ^(tema)(/|)$ temak [L,R=301]
+	RewriteRule  ^(tema)/(json|txt)(/|)$ temak/$2 [L,R=301]
+	
 		
 	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])(/|)$ index.php?m=$1&d=$2 [L]
 	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(txt|json)$ index.php?m=$1&d=$2&format=$3 [L]
@@ -70,12 +73,18 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/image$ image.php?d=$1/$2 [L]
 	
 	RewriteRule  ^(0[1-9]|1[012])$ index.php?m=$1 [L]
+	RewriteRule  ^(0[1-9]|1[012])/(txt|json)$ index.php?m=$1&format=$2 [L]
 
-	RewriteRule ^(tema|temak)(/|)$ index.php?p=tema [L]
+	RewriteRule ^(temak)(/|)$ index.php?p=tema [L]
+	RewriteRule ^(temak)/(json|txt)(/|)$ index.php?p=tema&format=$2 [L]
 	
 	RewriteRule ^rss.xml$ rss.php [L]
 		
+	RewriteRule ^tema/(.+)/(json|txt)$ index.php?tag=$1&format=$2 [L]
 	RewriteRule ^tema/(.+)$ index.php?tag=$1 [L]
+	
+
+	RewriteRule ^(txt|json)$ index.php?format=$1 [L]
 		
 	RewriteRule ^veletlen$ index.php?random=true [L]	
 	RewriteRule ^veletlen/(txt|json|image)$ index.php?random=true&format=$1 [L]
