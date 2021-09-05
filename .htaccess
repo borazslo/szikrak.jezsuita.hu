@@ -64,7 +64,8 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 	RewriteRule  ^([1-9])/([1-9])$ /0$1/0$2 [L,R=301]	
 	RewriteRule  ^([1-9])$ /0$1 [L,R=301]
 		
-	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])$ index.php?m=$1&d=$2 [L]
+	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])(/|)$ index.php?m=$1&d=$2 [L]
+	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(txt|json)$ index.php?m=$1&d=$2&format=$3 [L]
 	
 	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/image$ image.php?d=$1/$2 [L]
 	
@@ -76,8 +77,9 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 		
 	RewriteRule ^tema/(.+)$ index.php?tag=$1 [L]
 		
-	RewriteRule ^(HH/NN|txt|veletlen)$ /index.php?p=$1 [L]	
-	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(txt)$ index.php?m=$1&d=$2&p=txt [L]
+	RewriteRule ^veletlen$ index.php?random=true [L]	
+	RewriteRule ^veletlen/(txt|json|image)$ index.php?random=true&format=$1 [L]
+			
 	
   # Pass all requests not referring directly to files in the filesystem to
   # index.php. Clean URLs are handled in drupal_environment_initialize().

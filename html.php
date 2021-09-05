@@ -71,8 +71,8 @@
 				<?php if (4 == 8 ): ?>
 					<php $szikrak = $szikra; foreach($szikrak as $szikra) { ?>
 						<p class="dyn" id="dyn_full"><?php echo trim($szikra['szikra']); 
-						?><php if ($szikra['megj']!=''): ?><?php echo "<a title=\"".strip_tags($szikra['megj'])."\">*</a>"; ?><? endif; ?>
-						<php echo "- <a href=\"".$base_url.$szikra['m']."/".$szikra['d']."\">".$honapok[$szikra['m']]." ".$szikra['d'].".</a>"; ?></p>
+						?><?php if ($szikra['megj']!=''): ?><?php echo "<a title=\"".strip_tags($szikra['megj'])."\">*</a>"; ?><?php endif; ?>
+						<?php echo "- <a href=\"".$url.'/'.$szikra['m']."/".$szikra['d']."\">".$honapok[$szikra['m']]." ".$szikra['d'].".</a>"; ?></p>
 						
 					<php } ?>
 				<?php endif; ?>
@@ -110,14 +110,19 @@
 				</div>
 				<div data-role="collapsible" data-iconpos="right">
 					<h3>A honlap titkai</h3>
-					<p>Valamennyi szikrát megkeresheted a <? echo $base_url ?>HH/NN formátummal. Például: <a href="<? echo $base_url.$randm.'/'.$randd; ?>"><? echo $base_url.$randm.'/'.$randd; ?></a></p>
-					<p>Egy-egy hónap összes szikráját is lekérheted. Például: <a href="<? echo $base_url.$randm ?>"><? echo $base_url.$randm; ?></a></p>
-					<p>Egy témához kapcsolódó minden mondás szintén elérhető. Például: <a href="<? echo $base_url ?>tema/választás"><? echo $base_url; ?>tema/választás</a></p>
-					<p>Választhatsz véletlen szikrát is a <a href="<? echo $base_url; ?>veletlen"><? echo $base_url; ?>veletlen</a> oldalon.
-					<p>Egész nyers szöveget kapsz, ha az url végére teszed, hogy „txt”. Például: <? echo $base_url.$randm.'/'.$randd; ?>/txt</p>
+					<?php
+					$randm = sprintf('%02d', rand(1,12));
+					$randd = sprintf('%02d', rand(1,28));
+					
+					?>
+					<p>Valamennyi szikrát megkeresheted a <?php echo $url ?>/HH/NN formátummal. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>"><?php echo $url.'/'.$randm.'/'.$randd; ?></a></p>
+					<p>Egy-egy hónap összes szikráját is lekérheted. Például: <a href="<?php echo $url.'/'.$randm ?>"><?php echo $url.'/'.$randm; ?></a></p>
+					<p>Egy témához kapcsolódó minden mondás szintén elérhető. Például: <a href="<?php echo $url ?>/tema/választás"><?php echo $url; ?>/tema/választás</a></p>
+					<p>Választhatsz véletlen szikrát is a <a href="<?php echo $url; ?>/veletlen"><?php echo $url; ?>/veletlen</a> oldalon.
+					<p>Egész nyers szöveget kapsz, ha az url végére teszed, hogy „txt”. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>/txt" target="_blank"><?php echo $url.'/'.$randm.'/'.$randd; ?>/txt</a></p>
 				</div>
 			</div>
-			<div align="center"><a href="http://jezsuita.hu"><img src="<? echo $base_url; ?>logo.png" alt="Jezsuiták" title="Készült a Jézus Társasása Magyarországi Rendtartománya támogatásával"></a></div>
+			<div align="center"><a href="http://jezsuita.hu"><img src="<?php echo $url; ?>/logo.png" alt="Jezsuiták" title="Készült a Jézus Társasása Magyarországi Rendtartománya támogatásával"></a></div>
 		</div>
 		
 	</div><!-- /page help -->
