@@ -103,7 +103,10 @@
 					<p>Egy témához kapcsolódó minden mondás szintén elérhető. Például: <a href="<?php echo $url ?>/tema/választás">/tema/választás</a></p>
 					<p>A témákat pedig kilistázhatod: <a href="<?php echo $url; ?>/temak">/temak</a></p>
 					<p>Választhatsz véletlen szikrát is a <a href="<?php echo $url; ?>/veletlen">/veletlen</a> oldalon.
-					<p>Speciális formátumokban is le lehet kérni az adatokat. Egész nyers szöveget kapsz, ha az url végére teszed, hogy „txt”. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>/txt" target="_blank"><?php echo '/'.$randm.'/'.$randd; ?>/txt</a>. Vagy json formátumban a „json” kiegészítővel. Például: <a href="<?php echo $url; ?>/tema/választás/json" target="_blank">/tema/választás/json</a></p>
+					<p>Speciális formátumokban is le lehet kérni az adatokat. 
+					<br/>Képként is meglehet nézni valamennyi szikrát (akár a véletlenekt is) így: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>/kep" target="_blank"><?php echo '/'.$randm.'/'.$randd; ?>/kep</a>
+					<br/>Egész nyers szöveget kapsz, ha az url végére teszed, hogy „txt”. Például: <a href="<?php echo $url.'/'.$randm.'/'.$randd; ?>/txt" target="_blank"><?php echo '/'.$randm.'/'.$randd; ?>/txt</a>.
+					<br/>Vagy json formátumban a „json” kiegészítővel. Például: <a href="<?php echo $url; ?>/tema/választás/json" target="_blank">/tema/választás/json</a></p>
 				</div>
 			</div>
 			<div align="center"><a href="http://jezsuita.hu"><img src="<?php echo $url; ?>/logo.png" alt="Jezsuiták" title="Készült a Jézus Társasása Magyarországi Rendtartománya támogatásával"></a></div>

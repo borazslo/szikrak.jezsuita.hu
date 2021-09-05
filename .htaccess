@@ -70,7 +70,7 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])(/|)$ index.php?m=$1&d=$2 [L]
 	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(txt|json)$ index.php?m=$1&d=$2&format=$3 [L]
 	
-	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/image$ image.php?d=$1/$2 [L]
+	RewriteRule  ^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(image|kep)$ image.php?d=$1/$2 [L]
 	
 	RewriteRule  ^(0[1-9]|1[012])$ index.php?m=$1 [L]
 	RewriteRule  ^(0[1-9]|1[012])/(txt|json)$ index.php?m=$1&format=$2 [L]
@@ -87,7 +87,8 @@ RewriteRule ^rss$ http://feeds.feedburner.com/ignaci_szikrak [R=temp,L]
 	RewriteRule ^(txt|json)$ index.php?format=$1 [L]
 		
 	RewriteRule ^veletlen$ index.php?random=true [L]	
-	RewriteRule ^veletlen/(txt|json|image)$ index.php?random=true&format=$1 [L]
+	RewriteRule ^veletlen/(txt|json)$ index.php?random=true&format=$1 [L]
+	RewriteRule ^veletlen/(image|kep)$ image.php?d=random [L]
 			
 	
   # Pass all requests not referring directly to files in the filesystem to

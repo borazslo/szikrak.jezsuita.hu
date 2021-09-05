@@ -1,13 +1,11 @@
 <?php
-
-$baseImage = 'szikra_ures.jpg';
+$baseImage = __DIR__ . '/szikra_ures.jpg';
 $box = array(105, 220, 900, 600); // x,y bal fönt; x,y jobb lent
 
-$fontPath = "arial.ttf";
+include 'sql.php'; 
+
+$fontPath = __DIR__ . "/arial.ttf";
 $fontSize = 46;
-
-
-include_once('functions.php');
 
 if ($_GET['d'] == 'random') {
     $match = array(0, sprintf('%02d',rand(1,12),2), sprintf('%02d',rand(1,31),2));
@@ -16,11 +14,11 @@ if ($_GET['d'] == 'random') {
     $match = array(0, date('m'), date('d'));
 } 
 
-$szikra = getszikra($match[1],$match[2]);    
+$szikra = $szikrak[intval($match[1])][intval($match[2])];    
 
 $img = false;
 
-szikra_to_box($baseImage, $box, $fontSize, $szikra['szikra'], $szikra['date4']);
+szikra_to_box($baseImage, $box, $fontSize, $szikra['text'], $szikra['dateHun']);
 
 
 function szikra_to_box($image_path, $box, $font_size, $text, $date ) {
@@ -30,9 +28,10 @@ function szikra_to_box($image_path, $box, $font_size, $text, $date ) {
     #$text = preg_replace('/, mint /i', ", ha&nbsp;", $text);
 
 
-
+	if(!file_exists($image_path)) die('Alap kép nem elérhető!');
     $img = imagecreatefromjpeg($image_path); // 509 x 427
-
+	if(!$img) die('Nem sikerült a képet létrehozni!');
+	
     $black = imagecolorallocate($img, 0x00, 0x00, 0x00);
     $white = imagecolorallocate($img, 255, 255, 255);
 
@@ -40,21 +39,21 @@ function szikra_to_box($image_path, $box, $font_size, $text, $date ) {
     //Test the Box
     //imagerectangle($img, $box[0], $box[1], $box[2], $box[3], $white);
     
+	
     // Write time and date
     imagettftext($img, 20, 0, $box[0], $box[3] + 45, $white, $fontPath, $date); // "draws" the rest of the string
-
 
     $ypos = image_multiline_text($img, $font_size, 0, $box[0], $box[1], $white, $fontPath, $text, $box[2] - $box[0]); 
 
     if($ypos > $box[3]) {
         szikra_to_box($image_path, $box, $font_size - 3, $text, $date);        
     }
-
+	
 }
-
 
 header('Content-Type: image/jpeg');
 imagejpeg($img);
+imagedestroy($img);
 exit();
 
 
