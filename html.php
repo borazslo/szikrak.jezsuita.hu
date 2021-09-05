@@ -9,17 +9,19 @@
 		<meta name="format-detection" content="telephone=no, email=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-		
+	
+		<title><?php echo $pageTitle; ?></title> 
 		
 		<meta property="fb:app_id" content="133165076817014" />
 		<meta property="og:type" content="article" />
-		<meta property="og:url" content="'.$szikra['url'].'" />
+		<meta property="og:url" content="<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>" />
 		<meta property="og:title" content="<?php echo $pageTitle; ?>" />
-		<meta property="og:description" content="'.$szikra['szikra'].'" />
-		<meta property="og:image" content="http://szikrak.jezsuita.hu/image.php?d='.preg_replace('/-/','/',$szikra['date3']).'" />
-
-		<title><?php echo $pageTitle; ?></title> 
-		<meta name="description" content="">
+		<meta property="og:description" content="<?php echo $pageDescription; ?>" />
+		<?php if (isset($szikra)) : ?>
+		<meta property="og:image" content="<?php echo $url; ?>/image.php?d=<?php echo preg_replace('/^\//','',$szikra['url']); ?>" />
+		<?php endif; ?>
+	
+		<meta name="description" content="<?php echo $pageDescription; ?>">
 		
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>

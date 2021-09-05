@@ -65,6 +65,7 @@ if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
 			exit;
 		case 'html':
 			$pageTitle .= " - témák";
+			$pageDescription = "Loyolai Szent Ignác szikráinak témái";
 			$content = '';
 			foreach($tags as $name => $days) {
 					$content .= '<p class="dyn" id="dyn_full"><a href="'.$url.'/tema/'.$name.'">'.$name.'</a> ('.count($days).')</p>';
@@ -101,6 +102,7 @@ if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
 			die('Nincs ilyen oldal.');			
 		case 'html':
 			$pageTitle .= " - ".$_GET['tag'];
+			$pageDescription = "Loyolai Szent Ignác gondolatai a ".$_GET['tag']." témában.";
 			$tmp = [];
 			$content = '';
 			foreach($tag as $datum) {
@@ -113,7 +115,7 @@ if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
 					
 				$content .= " - <a href=\"".$url.$szikra['url']."\">".$szikra['dateHun']."</a>\n"; 
 				$content .= "</p>\n";
-				
+				unset($szikra);
 				
 			}
 			include('html.php');
@@ -169,6 +171,7 @@ if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
 			die('Nincs ilyen oldal.');			
 		case 'html':		
 			$pageTitle .= " - ".$honapok[$m];
+			$pageDescription = "Loyolai Szent Ignác gondolatai ".$honapok[$m]." hónapra.";
 			$content = '';
 			foreach($szikrak[$m] as $szikra) {
 				$content .= '<p class="dyn" id="dyn_full">'.trim($szikra['text']); 
@@ -178,6 +181,7 @@ if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
 				$content .= " - <a href=\"".$url.$szikra['url']."\">".$szikra['dateHun']."</a>\n"; 
 				$content .= "</p>\n";					
 			}
+			unset($szikra);
 			include('html.php');
 			exit;
 	}	
