@@ -188,10 +188,3 @@ if(isset($_GET['p']) AND $_GET['p'] == 'tema') {
 } else {
 	die('Ilyen oldal sajnos nincs');
 }
-
-/* html format *
-?>
-	
-// hónap és téma
-	
-	

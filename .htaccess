@@ -20,7 +20,7 @@ Options +FollowSymLinks
 Options -Multiviews
 
 # Make Drupal handle any 404 errors.
-ErrorDocument 404 /index.php?p=404
+# ErrorDocument 404 /index.php?p=404
 
 # Force simple error message for requests for non-existent favicon.ico.
 <Files favicon.ico>
@@ -34,7 +34,7 @@ DirectoryIndex index.php index.html index.htm
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  RewriteBase /szikrak.jezsuita.hu/
+  RewriteBase /
 
   # Block access to "hidden" directories whose names begin with a period. This
   # includes directories used by version control systems such as Subversion or
