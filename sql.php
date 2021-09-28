@@ -5,7 +5,7 @@ $pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvas
 $pageCategory = 'spirituality';
 $pageCopyright = 'JTMR - Jézus Társasága Magyarországi Rendtartománya';
 	          
-$adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpróbálja més sokkal finomabbá tenni, és az aggodalmaskodás szélsőséges fokára juttatni, hogy akit így nyomorultul összezavart, végül a lelki fejlődés útjától letérjen.
+$adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpróbálja még sokkal finomabbá tenni, és az aggodalmaskodás szélsőséges fokára juttatni, hogy akit így nyomorultul összezavart, végül a lelki fejlődés útjától letérjen.
 12	2	Gyakorlatból és tapasztalatból fogjuk megtanulni, hogy nem a restek és a lanyhák, hanem az Isten szolgálatában buzgók és serények élvezik a lelki békét és nyugalmat.
 12	3	A szerzetesközösségek fennmaradása szinte teljesen az eredeti szellem megőrzésétől függ.
 12	4	Minél inkább elkülönül és magágyba vonul a lélek, annál alkalmasabbá teszi magát arra, hogy Teremetőjét keresse és megtalálja.
@@ -28,7 +28,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 12	21	Senkit se sértünk meg, legkevésbé azokat, akik ha ellenségünkké válnak, Isten szolgálatában és a közjó előmozdításában akadályozhatnának.
 12	22	Úgy kell bűnbánatot tartani, hogy szívünkben töredelmet gyakoroljunk, szánkkal bűneinket megvalljuk, cselekedetünkkel pedig elégtételt nyújtsunk.
 12	23	A Szentlélek, aki választásra indít, kiegészítve könnyedén hiánytalanná teszi a választás egész rendjét és módját.
-12	24	Az ártatlanság és életszentség sokra képes ugyan önmagában és mesze fölülmúl minden egyéb dolgot; mégis, ha okossággal és az emberekkel való bánásmód művészetével nem párosul, hiányos és erőtlen.
+12	24	Az ártatlanság és életszentség sokra képes ugyan önmagában és messze fölülmúl minden egyéb dolgot; mégis, ha okossággal és az emberekkel való bánásmód művészetével nem párosul, hiányos és erőtlen.
 12	25	Hitvány, alávaló, elpuhult és tunya embernek tartsátok magatokat, ha csak egyvalaki is akad egy fejedelmi udvarban, aki egy földi fejeledelem kegyét hajhászva buzgóbban engedelmeskedik parancsainak, mint ti azért, hogy az égi Király kedveltjei legyetek.
 12	26	Mindig emlékeznünk kell arra, hogy mindaddig, amíg el nem érkezünk mennyei hazánkba, addig zarándokok vagyunk, és hogy útközben a fogadókat és vidékeket ne szeressük meg annyira, hogy elfelejtsük, hová is tartunk, vagy hogy elveszítsük a végső cél iránti szeretetünket.
 12	27	Azok, akik túlságosan óvatosak, ritkán fognak az isteni dolgokban valami nagy és hősies dologra vállalkozni; ezekhez ugyanis nem mer nyúlni az, aki minden jelentéktelen, esetleg előforduló nehézségtől megijed.
@@ -55,7 +55,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 11	17	A beszéd adománya nagyon kívánatos a felebarátainkkal intézendő ügyek megoldásához.
 11	18	Ha két fél egységre akar jutni, mindkét oldalról hasznos lesz a földi dolgok megvetése, melyekben tévedni szokott az önszeretet, ennek az egységnek és az egyetemes jónak legveszedelmesebb ellensége.
 11	19	Kísértés idején idézd fel a rövidesen elközelgő vigasztalás reményét és gondolatát, különösen, ha a szent fáradozások révén apránként törik meg a vigasztalanság kísértése.
-11	20	A hozzáértő elöljáró óvakodják, hogy a részleges vonzalom ne ártson az általános szeretetnek.
+11	20	A hozzáértő elöljáró óvakodjék, hogy a részleges vonzalom ne ártson az általános szeretetnek.
 11	21	A földön való időzés keserű fáradtság, hacsak nem tartózkodsz a szeretet által inkább az égben és Istennél, mint a földön és magadnál: minthogy a Napból előtörő sugarak is csak addig ragyognak s élnek, míg a Napban élnek.
 11	22	A vigasztalanság idején a gonosz lélek vezeti az embert, s az ő bujtogatásából semmi jó nem származik.
 11	23	Az igazán okos emberekre az jellemző, hogy nem bíznak a saját okosságukban, különösen saját ügyeikre vonatkozóan, amelyekben aligha lehet jó bíró egy olyan ember, akinek elméje nyugtalan.
@@ -72,7 +72,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 10	4	A Szentlélek ajándékainak mind a befogadására, mind a továbbadására sokkal alkalmasabb a jó élet, mint a tudomány.
 10	5	Felebarátunk megsegítésének terve, mely minden területre kiterjed, a szent vágyakozásokból és imádságokból áll össze.
 10	6	Menjetek, és gyújtsátok lángra a világot!
-10	7	Akit olya nagy kötelezettség tart fogva Isten szolgálatára, mint titeket, az nem elégszik meg közönséges munkába és szolgálattal.
+10	7	Akit olyan nagy kötelezettség tart fogva Isten szolgálatára, mint titeket, az nem elégszik meg közönséges munkával és szolgálattal.
 10	8	Mily nagy veszélybe kerül az üdvösség és ártatlanság azok között a szélvészek és viharok között, amelyeket egyik pillanatban a javak és gazdagság, másik pillanatban a tisztelet és dicsőség, ismét másikban pedig a gyönyör dühöngő forgószele támaszt.
 10	9	Joggal remélhetjük, hogy a lelki javak gyarapodásával az anyagiak sem maradnak növekedés nélkül.
 10	10	Kiválasztott titeket az Isten, nehogy hitvány és mulandó dolgok hálózzák be lelketeket és többfelé szétszórva el ne foglalják szíveteket.
@@ -135,7 +135,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 8	6	Különösen közérdeklődésnek örvendő ügyekben – amelyek sokak megfigyelését és kritikáját magukra vonják – nem szabad belefogni, hacsak előre nem láthatók az eszközök, melyek célra vezetnek.
 8	7	A mások által elkövetett hiba – ami emberi dolog – tükör legyen számodra, melyben azt kell meglátnod, hogy milyen rútságot kell magadból eltávolítanod.
 8	8	Aki először magának helyesel, később másoktól is könnyen megköveteli, hogy helyeseljenek neki.
-8	9	Úgy tegyünk mindnet, hogy dicséret keresése távol legyen cselekedetünktől: de olyan legyen minden tettünk, hogy abban semmit se lehessen joggal kifogásolni.
+8	9	Úgy tegyünk mindent, hogy dicséret keresése távol legyen cselekedetünktől: de olyan legyen minden tettünk, hogy abban semmit se lehessen joggal kifogásolni.
 8	10	Teljesen ismerd meg az embert, mielőtt barátjává válnál.
 8	11	Ó, mennyit veszít nemcsak szabadságából, hanem tekintélyéből és jó hírnevéből is az, aki ajándékot fogad el.
 8	12	Ne dönts semmiről, ha lelked akár a heves érzelem, akár a levertség állapotában van, hanem amikor lecsillapodott a hév, kövesd azt, amit az érett értelem, s nem a pillanatnyi fellángolás tanácsol.
@@ -196,7 +196,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 6	5	Azokat, akik bár ténylegesen teljesítik elöljárójuk parancsait, de ezt kelletlenül és benső egyetértés nélkül teszik, a leghitványabb rabszolgák közé kell számítani.
 6	6	Amint testi és lelki erőnkkel visszaéltünk, amikor Isten törvénye ellen cselekedtünk, úgy fordítsuk most, miután a bűnbánat által a kegyelmet visszaszereztük, ugyanazokat az erőket az élet megjobbítására.
 6	7	A bölcs emberhalásznak – annak érdekében, hogy mindenkit megnyerjen – mindenkire rá kellene hangolódnia, akkor is, ha próbálkozásai kevés sikert aratnak.
-6	8	Ahol miden kedvezően folyik, gyanítani lehet, hogy az Isten szolgálatában való haladás kevésbé sikeres.
+6	8	Ahol minden kedvezően folyik, gyanítani lehet, hogy az Isten szolgálatában való haladás kevésbé sikeres.
 6	9	Méltán van megtiltva az előírtakon felüli, nyilvános, önként vállalt önmegtagadás szokása: egyrészt emlékeztetőül, hogy jobb az engedelmesség, mint az áldozatok, másrészt azért, hogy esztelenül ne dicsőíthessük magunkat.
 6	10	Ugyanazokkal a fegyverekkel kell küzdenünk a gonosz lélek ellen üdvösségünk érdekében, mint amelyekkel ő visszaél a mi romlásunkra.
 6	11	Azoknak, akiket a természet nagylelkűsége a világba a legszerencsésebb sorba emelt volna, nagyobb sikerük van az Isten dicsőségének hathatós előremozdításban is.
@@ -338,7 +338,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 2	5	Egyetlen éjszakát se tölts egy fedél alatt olyan emberrel, akiről tudod, hogy lelkét súlyos bűn terheli.
 2	4	Helytelenül fordítjuk szakadatlan imádságra azt a buzgóságot, melyet a ragaszkodások megfékezésére kellene fordítanunk.
 2	3	Nagy dolog, ha azokba a házakba, amelyekben mindig derűs és zavartalan nyugalom uralkodik, nem fészkelnek be a bűnök.
-2	2	Ha mások hasznára akarsz lenni, azzal kezdd, hoyg ne sajnáld a fáradtságot az önmagadon való munkálkodástól: a másokat lángra lobbantó tüzet otthon kell meggyújtani.
+2	2	Ha mások hasznára akarsz lenni, azzal kezdd, hogy ne sajnáld a fáradtságot az önmagadon való munkálkodástól: a másokat lángra lobbantó tüzet otthon kell meggyújtani.
 2	1	A beteg nyugodtan mondjon le az egészségesek igyekezetéről, és elégedjék meg azzal, hogy lelki nyugalommal és türelemmel kárpótolja magát, nehogy gyenge testét teljesen összetörje a munkával.
 1	31	Ha olyasmit kérnek tőled, amit károsnak gondolsz, járj el úgy, hogy a kérést visszautasítod, de a kérelmezőt barátodként megőrzöd.
 1	30	Néhány esetben jobb hallgatni, mint beszélni: nincs ott szükség ékesszólásra, ahol az igazság önmagáért beszél.
