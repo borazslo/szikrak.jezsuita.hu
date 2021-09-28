@@ -1,5 +1,5 @@
 <?php
-$url = 'http://szikrak.jezsuita.hu';
+$url = 'http://devserver.hu/szikrak.jezsuita.hu';
 $pageTitle =  '<a href="'.$url.'">Ignáci Szikrák</a>';
 $pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy „normális” lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
 $pageCategory = 'spirituality';
@@ -107,7 +107,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 9	8	Győzd le magad, ha ugyanis magadat legyőzted, fényesebb koronát nyersz az égben, mint a szelídebb természetűek.
 9	9	Azokkal szemben, akik még gyengék az erényben, a legkevésbé sem szabad keményeknek lennünk, nehogy ebből származó bizalmatlanság sokkal több rosszat szüljön, mint amennyi jót a kemény szemrehányástól remélni lehet.
 9	10	Az ördög mindennapos ravaszságai ellen alkalmas eszköz, ha naponta előre megállapított időkben őrséget tartunk, magunkba szállunk, minden szavunkat, tettünket és gondolatunkat Isten előtt igen gondosan megvizsgáljuk.
-9	11	Ha valamit holnapra ígértél, inkább ma tett meg, mintsem halogasd.
+9	11	Ha valamit holnapra ígértél, inkább ma tedd meg, mintsem halogasd.
 9	12	Ha valaki a fejedelmeket és elöljárókat nyilvánosság előtt becsmérli, több kárt és botrányt okoz, mint hasznot.
 9	13	Előre látni, mit kell majd tennünk, és megítélni, amit megtettünk – ezek a helyes cselekvés legmegbízhatóbb szabályai.
 9	14	Aki észreveszi, hogy hibázott, ne csüggedjen: a hibák is hasznunkra válnak.
