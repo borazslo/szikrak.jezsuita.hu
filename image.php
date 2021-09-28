@@ -34,7 +34,7 @@ $newSettings = [
 	],	
 ];
 	
-$imageSource = $oldSettings;
+$imageSource = $newSettings;
 
 $imageSource['text']['box']['width'] = $imageSource['text']['box'][2] - $imageSource['text']['box'][0];
 $imageSource['text']['box']['height'] = $imageSource['text']['box'][3] - $imageSource['text']['box'][1];
