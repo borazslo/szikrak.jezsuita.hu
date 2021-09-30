@@ -18,17 +18,17 @@ $oldSettings = [
 $newSettings = [
 	'path' => __DIR__ . '/IgnaciSzikrak_ures.png',
 	'text' => [
-		'box' => array(66, 266, 529, 529), // x,y bal fönt; x,y jobb lent
+		'box' => array(130, 560, 1110, 1136), // x,y bal fönt; x,y jobb lent
 		'font' => __DIR__ .'/Alegreya-Medium.ttf',
 		'color' => [0,0,0],
-		'size' => 28, // maxSize. optional
+		'size' => 65, // maxSize. optional
 		'align' => 'center', // optional. left, right, center
 		'valign' => 'middle', // optional. top, middle, bottom
 	],
 	'date' => [
-		'box' => array(360, 175, 546, 210 ),
+		'box' => array(750, 370, 1135, 436 ),
 		'font' => __DIR__ .'/Alegreya-BoldItalic.ttf',
-		'size' => 14,
+		'size' => 36,
 		'color' => [255,255,255],
 		'align' => 'center'
 	],	
@@ -127,7 +127,7 @@ function szikra_to_box($imageSource, $font_size, $text, $date ) {
     #$text = preg_replace('/, mint /i', ", ha&nbsp;", $text);
 
 	//Test the Box
-    //call_user_func_array('imagerectangle',array_merge([$img], array_slice($imageSource['text']['box'],0,4,true), [$white]));
+    //call_user_func_array('imagerectangle',array_merge([$img], array_slice($imageSource['text']['box'],0,4,true), [$black]));
 	
 	// Split text to line adjusting font size if neccesary
     list($imageSource['text']['lines'], $imageSource['text']['lineHeight'], $height) = image_multiline_text($img, $imageSource['text'], $text ); 
