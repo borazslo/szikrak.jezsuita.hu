@@ -1,14 +1,14 @@
 <?php
 $url = 'http://devserver.hu/szikrak.jezsuita.hu';
-$pageTitle =  '<a href="'.$url.'">Ignáci Szikrák</a>';
+$pageTitle = '<a href="'.$url.'">Ignáci Szikrák</a>';
 $pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy „normális” lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
 $pageCategory = 'spirituality';
 $pageCopyright = 'JTMR - Jézus Társasága Magyarországi Rendtartománya';
-	          
+	
 $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpróbálja még sokkal finomabbá tenni, és az aggodalmaskodás szélsőséges fokára juttatni, hogy akit így nyomorultul összezavart, végül a lelki fejlődés útjától letérjen.
 12	2	Gyakorlatból és tapasztalatból fogjuk megtanulni, hogy nem a restek és a lanyhák, hanem az Isten szolgálatában buzgók és serények élvezik a lelki békét és nyugalmat.
 12	3	A szerzetesközösségek fennmaradása szinte teljesen az eredeti szellem megőrzésétől függ.
-12	4	Minél inkább elkülönül és magágyba vonul a lélek, annál alkalmasabbá teszi magát arra, hogy Teremetőjét keresse és megtalálja.
+12	4	Minél inkább elkülönül és magágyba vonul a lélek, annál alkalmasabbá teszi magát arra, hogy Teremtőjét keresse és megtalálja.
 12	5	Nagy tévedésben vannak, akik az önszeretettől elvakulva engedelmesnek tartják magukat, miután elöljárójukat valamilyen módon rábírták arra, amit maguk akartak.
 12	6	Hogy a lélek előre haladhasson a lelki élet útján, az ellentétes irányba kell mennie ahhoz képest, amerre az ellenség csalogatni próbálja.
 12	7	Ellenségünk semmivel sem oltja ki jobban a szeretetet, mint az erényben való mértéktelen és meggondolatlan előrehaladással.
@@ -210,7 +210,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 6	19	Egyetlen emberrel, még a legelvetemültebbel sem lehet Isten dolgairól beszélni anélkül, hogy ebből igen nagy haszon ne származnék.
 6	20	Sose csiklandozd senki fülét oly nagy ígéretekkel, amelyeket nem lehet megfelelően teljesíteni.
 6	21	Mások hiányosságainak túlságos gyűlölete inkább elidegenedést, mint az élet megjobbítását eredményezi, és ahelyett, hogy segítené, inkább menekülésre készteti az embereket.
-6	22	Az önsanyargatások közt azokat kell többre becsülni, amelyek élesebb fájdalmat, de kevesebb kárt okoznak: ezekkel ugyani érzékenyebben és tartósabban is sanyargathatjuk a testet.
+6	22	Az önsanyargatások közt azokat kell többre becsülni, amelyek élesebb fájdalmat, de kevesebb kárt okoznak: ezekkel ugyanis érzékenyebben és tartósabban is sanyargathatjuk a testet.
 6	23	Semmit sem szabad cselekednünk vagy írnunk, amiből gyűlölet vagy keserűség származhat.
 6	24	A gonosz lélek sok örömöt talál abban a lélekben, amely tanácsot nem kérve halad előre, anélkül, hogy ellenőrzése alatt tartaná az, akinek irányítania kellene; minél magasabbra törekszik tehát az ilyen, annál nagyobbat fog esni.
 6	25	Keveset beszélj, sokat hallgass.
@@ -223,7 +223,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 5	30	Azokra vár a mennyekben a legértékesebb korona, akik minden munkájukat a tőlük telhető legnagyobb szorgalommal végzik. Mert nem elég önmagukban jó dolgokat tenni, jól is kell azokat tenni.
 5	29	Ha egy katona háború idején hősiesebben harcol, hogy mulandó dicsőséget és zsákmányt nyerjen, mint ti, hogy derekasan kivívott győzelmetekből a mennyek országában örök dicsőséget szerezve diadalmaskodjatok, akkor sem névleg, sem szívetek szerint nem vagytok Krisztus katonái.
 5	28	Biztos, hogy a lusták, mivel nem győzik le önmagukat, sosem jutnak el a lelki békére és az erények tökéletes birtoklására, míg a szorgalmasak néhány nap alatt mindkettőt könnyedén elérik.
-5	27	Jézus Krisztus szerelmére könyörgök, felejtsétek el a mögöttetek lévő dolgokat, és - mintha most vágnátok neki először az oly hosszú utazásnak - buzgón, fáradhatatlan előrehaladással járjátok az erények útját.
+5	27	Jézus Krisztus szerelmére könyörgök, felejtsétek el a mögöttetek lévő dolgokat, és - mintha most vágnátok neki először az oly hosszú utazásnak - buzgón, fáradhatatlan előrehaladással járjátok az erények útját.
 5	26	Mikor a gonosz lélek meg akarja támadni az embert, először kikémleli, hogy melyik oldala a leggyengébb vagy leghanyagabb, oda irányítja mesterkedéseit, és onnan indítja a támadást.
 5	25	A gonosz léleknek az a szokása, hogy inkább házon kívül intézi az ügyeit, mint otthon. Isten ezzel szemben inkább belül, mintsem kívül dolgozza ki és finomítja az embert.
 5	24	Nem mi vagyunk testünk urai, hanem Isten; épp ezért nem lehet a testi önmegtagadásokat mindenki számára ugyanazon mérték szerint osztani.
@@ -233,9 +233,9 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 5	20	Mikor az elöljáró parancsol valamit neked, nem tiltja meg, hogy az eszed is használd.
 5	19	Olyan nagy bizalmunk legyen Istenben, hogy elhiggyük: hajó híján egy szál pallón is átszelhetjük a tengert.
 5	18	Aki egy dolgot magáért a dologért és nem az Istenért szeret, az nem szereti Istent teljes szívből.
-5	17	Aki szerzetbe akar lépni, tudja meg, hogy nem lesz ott maradandó és nyugodt lakhelye, ha nem lépi át a  küszöböt mindkét lábával, azaz akaratával és értelmével.
+5	17	Aki szerzetbe akar lépni, tudja meg, hogy nem lesz ott maradandó és nyugodt lakhelye, ha nem lépi át a küszöböt mindkét lábával, azaz akaratával és értelmével.
 5	16	Vigyázzanak az elöljárók, hogy keménységükkel ne idegenítsék el maguktól alárendeltjeiket, hisz a szigorúságnak már a gyanúja is árt.
-5	15	Ha a gonosz lélek gonosz gondolatok rendkívüli támadásával ingerel a bűnre, akkor rendkívüli ellenszerrel, a szokásosakon felüli önkánt vállalt önmegtagadásokkal kell ellene védekeznünk.
+5	15	Ha a gonosz lélek gonosz gondolatok rendkívüli támadásával ingerel a bűnre, akkor rendkívüli ellenszerrel, a szokásosakon felüli önként vállalt önmegtagadásokkal kell ellene védekeznünk.
 5	14	A hálátlanság a legutálatosabb dolgok egyikre, minden bűn és baj oka, forrása és kezdete.
 5	13	Menjünk elszántan előre, biztosan abban, hogy bármilyen keresztet is kell elviselnünk, az nem lesz Krisztus nélküli, és hogy az Ő segítsége - mely hatalmasabb minden ellenségünk cselszövésénél - mindig velünk lesz.
 5	12	Jobban szeretném, hogy Isten szolgái inkább erényekben tűnjenek ki, mint számban, és inkább cselekedeteik, mint nevük és ruhájuk által különbözzenek a többiektől.
@@ -260,16 +260,16 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 4	23	Ha elér a szenvedés, bármit akarjon is Isten vagy az ő engedélyével a gonosz rád mérni, reménykedj csak az Istenben, hogy győzni fogsz.
 4	22	Aki Krisztus kedvéért vállalja a világ megvetését, annak nincs a földön olyan ország, amit sajátjának hívhatna.
 4	21	Szeresd a legelvetemültebbeket is; szeresd bennük a maradék hitet Krisztusban, s ha ez nincs meg bennük, szeresd az erényeket, melynek híjával vannak; szeresd a szent képmást, melyet viselnek; szeresd Krisztus vérét, mely hited szerint megváltotta őket.
-4	20	Aki Istent ismeri, az nem csak az ég és a csillagok láttára, hanem egy fűszál vagy bármely jelentéktelen dolog szemlélése által is azonnal fel tud emelkedni Isten szeretetéhez.
+4	20	Aki Istent ismeri, az nem csak az ég és a csillagok láttára, hanem egy fűszál vagy bármely jelentéktelen dolog szemlélése által is azonnal fel tud emelkedni Isten szeretetéhez.
 4	19	Őrizd meg mindenütt a lélek szabadságát, és nem tégy kivételt senkivel, bármiről is legyen szó. maradj meg a legellentétesebb helyzetekben is a lélek ugyanolyan szabadságában, semmiféle akadály ne tudja elvenni azt tőled.
 4	18	Nem mindenkinek hasznos az, ami önmagában véve nagyon jó; arra kell ügyelni, hogy a körülmények jelen követelményei szerint kinek-kinek mi válik a leginkább hasznára.
 4	17	Óvakodj attól, hogy bárki cselekedetét elítéld. Vedd figyelembe felebarátod szándékát, amely gyakran őszinte és ártatlan, habár cselekedete külsőre gyakran rossznak tűnik.
 4	16	A munkás gondolja meg, hogy nem arannyal, hanem sárral kell dolgoznia, s nagy gonddal vigyázzon magára, hogy rá ne ragadjon az a szenny, amelytől másokat meg akar tisztítani.
 4	15	Semmi piszkosat és rendetlent ne tűrj magadon, de kerüld el a mesterkélt gondosságot is, melynek elpuhultság és önhittség íze van.
 4	14	Akiket szilárd lelkük és férfias erényük miatt erősnek ismerünk, annyival szigorúbban kell büntetnünk a kisebb hibák miatt is, amennyivel jobban szeretjük őket.
-4	13	Az él boldogan, aki -  amennyire lehetséges -  értelmét folyamatosan Istenben és Istent szüntelenül értelmében forgatja.
+4	13	Az él boldogan, aki - amennyire lehetséges - értelmét folyamatosan Istenben és Istent szüntelenül értelmében forgatja.
 4	12	Nem szabad tartózkodnunk az Angyalok Kenyerétől, csak mert édes érzelmeket nem tapasztalunk: ez olyan volna, mintha valaki éhen akarna pusztulni, mert kenyeréhez nincsen méze.
-4	11	Aki az Úr szőlőjének művelésére indul, alázatossággal és önmegtagadással készítse megának az utat a magasra és fenségesre; akkor áll ugyanis biztonsággal egy épület, ha az alázatosság alapjára támaszkodik.
+4	11	Aki az Úr szőlőjének művelésére indul, alázatossággal és önmegtagadással készítse magának az utat a magasra és fenségesre; akkor áll ugyanis biztonsággal egy épület, ha az alázatosság alapjára támaszkodik.
 4	10	Semmiképp se gondoljuk, hogy a vallásos buzgóságtól vonjuk el azt, amit a természet szükségleteire fordítunk.
 4	9	Csodálatos békességben vagyok a világgal, míg a vidék nyelvét nem értvén semmi háborúságot sem okozok a világnak: de engedd csak meg, hogy nyílt csatatérre lépjek, meglátod, az egész város rögtön ellenem támad, én pedig minden oldalon harcolok.
 4	8	Amikor azért mennek hozzád emberek, hogy az idejüket múlassák, a halálról, ítéletről és hasonló kemény dolgokról beszélj nekik, melyek az ilyenek fülében - még ha különben közönyösek is - rettenetesen csengenek; így használsz nekik és magadnak is: mert vagy megjavulnak, vagy a jövőben nem rabolják el idődet.
@@ -281,13 +281,13 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 4	2	Annak érdekében, hogy egy ember természetes adottságai a lelkek üdvösségére szolgálhassanak, az erénynek belülről kell mozgásba hoznia ezeket, és onnan kiindulva a feladatok helyes végzésére irányítania.
 4	1	Azoknak, akik előkelők és jól képzettek, előbbre való és fontosabb megtanítani önmaguk, valamint minden feltűnés és tisztelet megvetését, mint a testi önmegtagadást.
 3	31	Aki Isten szolgálatáért megfeledkezik magáról és saját kényelméről, arra Isten visel gondot.
-3	30	Amint a durva, alaktalan farönk nem tudja, hogy oly szobrot faraghatnak belőle, melyet a művészet csodájaként bámulnának, s csak a szobrász látja, hogy mi válhat belőle: úgy sokan  - akik alig tudják, mit jelent kereszténynek lenni - nem látják be, hogy Isten kezéből szentekké formálódhatnának, ha e művészi kéznek ellen nem állnának.
+3	30	Amint a durva, alaktalan farönk nem tudja, hogy oly szobrot faraghatnak belőle, melyet a művészet csodájaként bámulnának, s csak a szobrász látja, hogy mi válhat belőle: úgy sokan - akik alig tudják, mit jelent kereszténynek lenni - nem látják be, hogy Isten kezéből szentekké formálódhatnának, ha e művészi kéznek ellen nem állnának.
 3	29	Aki nagyon fél az emberektől, az sohasem fog nagyot tenni Istenért.
 3	28	Mennyire bűzlik a föld, amikor felnézek a mennyre!
 3	27	Semmi teremtett dolog nem tud olyan boldogságot kelteni a lélekben, mely felérne a Szentlélek örömével.
 3	26	Csak szereteted és kegyelmed add nekem, Uram. És elég gazdag leszek; Semmi többet nem kérek.
 3	25	Rendkívüli vigasz, hogy valahányszor szentáldozáshoz járulunk, mindannyiszor nem csak Krisztusnak, hanem szent Anyjának a testéből is részesülünk.
-3	24	Sokkal jobb megszerezni egy jó dolognak csupán egy morzsáját biztonságosan, mint százat nyerni üdvösségünk kockáztatásával. 
+3	24	Sokkal jobb megszerezni egy jó dolognak csupán egy morzsáját biztonságosan, mint százat nyerni üdvösségünk kockáztatásával.
 3	23	Sose halaszd holnapra, amit ma meg tudsz tenni!
 3	22	Mégha kiskutyát rendelne is Isten vezetődül, akkor se ellenkezzél; szívesen kövesd mint Istentől rendelt vezéredet és életmesteredet.
 3	21	Örülök, amikor a jók jól vannak, a rosszak pedig rosszul: így előbbiek minden erejüket felhasználhatják Isten dicsőségére, utóbbiakat pedig Istenhez vezetheti fokozódó gyengeségük.
@@ -298,11 +298,11 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 3	16	Semmi sem édesebb, mint Istent szeretni, de oly módon, hogy az iránta való szeretet miatt sok dolgot elviselünk.
 3	15	Nincs rosszabb vihar, mint a szélcsend; nincs veszélyesebb ellenség, mintha nincs ellenségünk.
 3	14	Nem félek a szolgaságtól vagy a szemem elé állított haláltól; egyetlen dolog korlátoz: nehogy megbántsam az Istent.
-3	13	 Egy fa sem alkalmasabb az istenszeretet lángra gyújtására, mint a szent kereszt fája.
+3	13	 Egy fa sem alkalmasabb az istenszeretet lángra gyújtására, mint a szent kereszt fája.
 3	12	Manrézában Isten vezetésével egy óra alatt többet tanulunk, mint amire bárhol az összes tudósok együttvéve tanítani tudnának.
 3	11	Lelki dolgokban való hanyagságunk miatt méltán fosztatunk meg az isteni vigasztalástól.
-3	10	 Az legyen az alapelved, hogy a beszélgetés kezdetét nyugodtan átengeded másoknak, akik földi bölcsességgel rendelkeznek, de a kimenetelét megtartod magadnak, hogy bármilyen is a beszélgetés anyaga, bearanyozhasd azt.
-3	9	Ha a világ összes pénze az enyém lenne, akkor sem segíteném egy fillérrel sem azt, aki  saját hibájából lett méltatlan a szerzetességre.
+3	10	 Az legyen az alapelved, hogy a beszélgetés kezdetét nyugodtan átengeded másoknak, akik földi bölcsességgel rendelkeznek, de a kimenetelét megtartod magadnak, hogy bármilyen is a beszélgetés anyaga, bearanyozhasd azt.
+3	9	Ha a világ összes pénze az enyém lenne, akkor sem segíteném egy fillérrel sem azt, aki saját hibájából lett méltatlan a szerzetességre.
 3	8	A világ össze virágának minden méze nincs olyan édes, mint az Úr Jézus epéje és ecete.
 3	7	Kevesebb tudást, több erényt!
 3	6	Aki a világot megveti, annak hasonlóvá kell válnia a szoborhoz, amely nem vonakodik, ha rongyokba öltöztetik, ha megfosztják a bíbortól, amely előbb ékesítette.
@@ -316,21 +316,21 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 2	27	Ha az erényre kevésbé fogékony lélek önmagával bátran küzd, kétszer annyi érdemet szerez, mint akiknek szelíd és nyugodt természete semmi nehézséget nem okoz.
 2	26	Ha jeleket kell kérni Istentől, önmagában több és világosabb jelet kívánna, hogy pusztán a Tízparancs útján maradjunk, mint hogy az evangéliumi tanácsokat kövessük.
 2	25	Többre kell becsülni az önakarat megtagadását, mint a halottak feltámasztását.
-2	24	Egy egészséges közösségnek meg kell őriznie önmagát, és vigyáznia kell a jóllétére azáltal, hogy még idejében kimetszi a romlott tagjait, mielőtt romlottságuk elérné az ép részeket is.  
-2	23	Kérd Istentől a kegyelmet, hogy sokat szenvedj, mert akinek ezt megadja, annak sokat adott: ez az egy magába foglalja legtöbb jótéteményét.  
-2	22	Egyetlen bűn megakadályozása is megéri a hatalmas munkát, egy egész élet minden fáradozását és erőfeszítését.  
-2	21	Sohasem sikeresebb a pokolbéli ellenség velünk szemben, amint amikor titokban és alattomban munkálkodik.  
-2	20	Tapasztalatból tudom, hogy akik rabjai lettek a túl hosszú elmélkedéseknek, nyitottabbak a gonosz lelkek szemfényvesztéseire, és kezelhetetlenekké válnak.  
-2	19	Aki sikeresen akarja a rábízott feladatot véghezvinni, magát alakítsa a feladathoz, s nem a feladatot magához.  
-2	18	Azok a szerzetesek, akik szabályzatuk megsértése árán próbálják szolgálni Istent, letörik a fát annak érdekében, hogy leszedjék a gyümölcsöt.  
-2	17	Bármint beszélsz titokban, úgy add elő, mintha az egész világ előtt mondanád.  
-2	16	Még ha Isten dicsősége szempontjából teljesen egyforma volna is, csupán hogy Krisztust hívebben kövessük, inkább kellene választanunk ővele a szegénységet, megvetést és a tudatlanság látszatát, mint a gazdagságot, tiszteletet és a tudományosság hírét.  
-2	15	Aki Istent bírja, annak semmi sem hiányzik, még ha nincs is semmije.  
-2	14	Az Úr szőlőskertjében dolgozó munkások egyik lábának a földön kell lennie, a másiknak pedig fölemelve, hogy tovább folytassák útjukat.  
-2	13	Jobb a nagy körültekintés átlagos életszentséggel, mint a nagy életszentség kevés körültekintéssel.  
-2	12	Egy jól irányított házban az öregeknek ifjan, az ifjaknak éretten kell élniük, hogy az előbbiek a fiatalok lendületét, az utóbbiak az idősek érettségét mutassák.  
-2	11	Nem annak kell előrelátónak lennie, aki engedelmeskedik, hanem annak, aki parancsol. 
-2	10	Aki nagy dolgot akar tenni Isten szolgálatában, mindenek fölött attól óvakodjék, hogy túl okos ne legyen. 
+2	24	Egy egészséges közösségnek meg kell őriznie önmagát, és vigyáznia kell a jóllétére azáltal, hogy még idejében kimetszi a romlott tagjait, mielőtt romlottságuk elérné az ép részeket is.
+2	23	Kérd Istentől a kegyelmet, hogy sokat szenvedj, mert akinek ezt megadja, annak sokat adott: ez az egy magába foglalja legtöbb jótéteményét.
+2	22	Egyetlen bűn megakadályozása is megéri a hatalmas munkát, egy egész élet minden fáradozását és erőfeszítését.
+2	21	Sohasem sikeresebb a pokolbéli ellenség velünk szemben, amint amikor titokban és alattomban munkálkodik.
+2	20	Tapasztalatból tudom, hogy akik rabjai lettek a túl hosszú elmélkedéseknek, nyitottabbak a gonosz lelkek szemfényvesztéseire, és kezelhetetlenekké válnak.
+2	19	Aki sikeresen akarja a rábízott feladatot véghezvinni, magát alakítsa a feladathoz, s nem a feladatot magához.
+2	18	Azok a szerzetesek, akik szabályzatuk megsértése árán próbálják szolgálni Istent, letörik a fát annak érdekében, hogy leszedjék a gyümölcsöt.
+2	17	Bármint beszélsz titokban, úgy add elő, mintha az egész világ előtt mondanád.
+2	16	Még ha Isten dicsősége szempontjából teljesen egyforma volna is, csupán hogy Krisztust hívebben kövessük, inkább kellene választanunk ővele a szegénységet, megvetést és a tudatlanság látszatát, mint a gazdagságot, tiszteletet és a tudományosság hírét.
+2	15	Aki Istent bírja, annak semmi sem hiányzik, még ha nincs is semmije.
+2	14	Az Úr szőlőskertjében dolgozó munkások egyik lábának a földön kell lennie, a másiknak pedig fölemelve, hogy tovább folytassák útjukat.
+2	13	Jobb a nagy körültekintés átlagos életszentséggel, mint a nagy életszentség kevés körültekintéssel.
+2	12	Egy jól irányított házban az öregeknek ifjan, az ifjaknak éretten kell élniük, hogy az előbbiek a fiatalok lendületét, az utóbbiak az idősek érettségét mutassák.
+2	11	Nem annak kell előrelátónak lennie, aki engedelmeskedik, hanem annak, aki parancsol.
+2	10	Aki nagy dolgot akar tenni Isten szolgálatában, mindenek fölött attól óvakodjék, hogy túl okos ne legyen.
 2	9	Soha ne tégy, se ne mondj semmit, míg előbb meg nem gondoltad, tetszik-e az Istennek, használ-e neked, épülésére válik-e embertársadnak.
 2	8	Ha tudni akarod, mit akar veled Isten, előbb félre kell tenned minden ragaszkodásodat és azt, hogy két dolog közül az egyiket előnyben részesíted.
 2	7	Ha valaki harcol, mindig legyen támasza!
@@ -372,7 +372,7 @@ $adat = '12	1	Ha a gonosz lélek valakinél finom lelkiismeretre talál, megpró
 1	2	Cselekvéseid első szabály ez legyen: Úgy bízz Istenben, mintha ügyeid sikere teljesen tőled függne és egyáltalán nem Istentől; mégis úgy vesd latba értük minden erőfeszítésedet, mintha te semmit sem tennél, hanem egyedül Isten.
 1	1	Mindent Isten nagyobb dicsőségére!';
 
-$megj="0000-01-01	Szent Ignác ezt a gondolatot – ha nem is pontosan ebben a formában – háromszázhetvenhatszor ismétli Konstitúcióiban – jegyzi meg Hevenesi. A „Mindent Isten nagyobb dicsőségére” (<i>Omnia ad maiorem Dei gloriam</i>) jelmondat magában foglalja az ignáci lelkiség három lényeges elemét. Mindenek előtt a radikális istenközpontúságot (<i>gloria Dei</i>), majd a bizalmat és az optimizmust, hogy a teremtmények, az életkörülmények, sőt végső soron minden (<i>omnia</i>) nem akadály, hanem segítő lehet az Istenhez vezető úton, s végül az állandó növekedésre, jobbra és többre való törekvést (<i>maior - magis</i>). 
+$megj="0000-01-01	Szent Ignác ezt a gondolatot – ha nem is pontosan ebben a formában – háromszázhetvenhatszor ismétli Konstitúcióiban – jegyzi meg Hevenesi. A „Mindent Isten nagyobb dicsőségére” (<i>Omnia ad maiorem Dei gloriam</i>) jelmondat magában foglalja az ignáci lelkiség három lényeges elemét. Mindenek előtt a radikális istenközpontúságot (<i>gloria Dei</i>), majd a bizalmat és az optimizmust, hogy a teremtmények, az életkörülmények, sőt végső soron minden (<i>omnia</i>) nem akadály, hanem segítő lehet az Istenhez vezető úton, s végül az állandó növekedésre, jobbra és többre való törekvést (<i>maior - magis</i>).
 0000-01-05	A szikra dialektikus feszültségben fogalmazza meg az ima és a tevékenység, a kegyelem és a szabad akarat viszonyát. A szikra eredete nem világos, Ignác írásaiban sehol sem fordul elő ilyen erős megfogalmazásban az isteni és emberi oldal együttműködése. Nem véletlen, hogy a Scintillæ Ignatianæ későbbi kiadásaiban felcserélték a két alárendelt tagmondat alanyait („te” – „Isten”). Ennek ellenére az itt közölt változat fejezi ki helyesen az ignáci dialektikát. A helyes értelmezéshez segítséget nyújtanak P. Gaston Fessard SJ gondolatai P. Szabó Ferenc SJ tolmácsolásában (Kegyelem és szabadság az ignáci lelkiségben, in Lelkigyakorlatok, Korda, Kecskemét, 1994, 15-16).
 0000-01-07	Szent Ignác Lelkigyakorlatainak közepén (Lgy 189) – szinte csak mellesleg odavetve – jelenik meg ez a gondolat, amely nemcsak az ignáci lelkiség, hanem minden spirituális fejlődés alaptörvénye és követelménye: az önközpontúságból a teközpontúságba való állandó átmenet.
 0000-01-17	A paradox mondat az ima és a cselekvés kapcsolatára utal. Szent Ignác éppúgy meg akarja találni Istent munkájában, mint imájában. Jerónimo Nadal – a szent közeli munkatársa és ismerője szerint – Ignác <i>simul in actione contemplativus</i>, vagyis a cselekvésben is szemlélődő, Istent felfedezni képes ember volt.
@@ -385,22 +385,22 @@ $megj="0000-01-01	Szent Ignác ezt a gondolatot – ha nem is pontosan ebben a f
 0000-02-21	A szellemek megkülönböztetésére vonatkozó szabályok egyike (Lgy 326), amellyel Ignác – a nagy spirituális tradícióval összhangban – a lelkiismeretnek valaki más, általában egy tapasztalt lelki ember előtti feltárására figyelmeztet.
 0000-02-26	A Tízparancs útja és az evangéliumi tanácsok követése Ignác korában és nyelvezetében a házasság és a szerzetesség életállapotának megkülönböztetésére vonatkozott. Ignác a teljes harminc napos lelkigyakorlatot elsősorban olyan személyeknek adta, akikben látta a Krisztus-követés erőteljes vágyát, ill. a szerzetesi (elsősorban jezsuita) életre való alkalmasságot és adottságokat. Előfordult, hogy egyesek a lelkigyakorlatok 2. hetében – amikor rendszerint az életállapot-választás történik – mégis a házasság felé orientálódtak. Ilyenkor Ignác több és világosabb jelet lát szükségesnek a lelkigyakorlatozó imatapasztalataiban arra vonatkozólag, hogy útja valóban a családi életforma, s nem a szerzetesség.
 0000-03-10	Szent Ignác egyik legfőbb apostoli eszköze a szó, a beszélgetés. Ez azonban feltételezi az odafigyelést, a meghallgatni tudást. Ignác a másik ember kapuján megy be, de a magáén jön ki, pontosabban igyekszik a beszélgetést – amennyiben lehetséges – Isten felé terelni.
-0000-03-11	A vigasztalanságok és kísértések egyik leggyakoribb oka (Lgy 322), amit már a sivatagi atyák is jól ismernek. 
+0000-03-11	A vigasztalanságok és kísértések egyik leggyakoribb oka (Lgy 322), amit már a sivatagi atyák is jól ismernek.
 0000-03-12	Ignác manrézai tartózkodásának, sőt egész életének legjelentősebb istenélményére, a Cardoner-parti intuícióra utal (Vö. <i>A zarándok</i>, n. 30). A Manréza-kifejezés Ignác óta nemcsak a katalán kisvárosra, hanem általában a csendes elvonulásra, Istennel töltött időre vonatkozik, amelyben istenismeretünk személyessé válhat.
 0000-03-22	Ignác manrézai elvonultságát nemcsak istenélmények, hanem lelki mélypontok is megjelölik, amelyek túlhajtott aszkéziséből és aggályosságából fakadnak. Ignác nagyon megsínyli a jó és állandó lelkivezető hiányát is, ezért lenne hajlandó akár egy kis kutya követésére is, ha azt Isten rendelné számára (Vö. <i>A zarándok</i>, n. 23.)
-0000-03-25	A mondás abban az értelemben igaz, hogy az Ige emberségét – amely tökéletesen jelen van istenségével együtt a kenyérben és a borban – Mária emberi természetéből vette fel. 
+0000-03-25	A mondás abban az értelemben igaz, hogy az Ige emberségét – amely tökéletesen jelen van istenségével együtt a kenyérben és a borban – Mária emberi természetéből vette fel.
 0000-03-26	A Lelkigyakorlatok utolsó – a szeretet elnyeréséért végzett – szemlélődésének felajánló imájából vett részlet (Lgy 234).
 0000-04-02	Ignác minden korábbi rendalapítónál jobban kiemeli a természetes képességek és adottságok – mint pl. vállalkozó szellem, bátorság, intelligencia stb. – fontosságát és használatát Isten Országának építése érdekében. Mégis, természetes adottságaink akkor hozhatnak igazán gyümölcsöt, ha áthatják őket a teológiai erények.
-0000-04-15	Ignác saját tapasztalatából tanulja meg, hogy a lelkiekre való törekvés nem szakadhat el a külső dolgoktól, így pl. a megjelenéstől. Az összeszedettségnek nemcsak belül, hanem kívül is meg kell nyilvánulnia. 
+0000-04-15	Ignác saját tapasztalatából tanulja meg, hogy a lelkiekre való törekvés nem szakadhat el a külső dolgoktól, így pl. a megjelenéstől. Az összeszedettségnek nemcsak belül, hanem kívül is meg kell nyilvánulnia.
 0000-05-05	Az éles szemű pénzváltó az apostoli időktől fogva a megkülönböztetésben jártas ember szimbóluma. Ignác itt Istenre alkalmazza a képet, hiszen Ő az, aki „a szíveket és a veséket vizsgálja” (Jer 17,10), vagyis legjobban ismeri. A szeretet, mint a megkülönböztetés tárgya, Ignác szerint inkább cselekedetekben nyilvánul meg, mint szavakban (Vö. Lgy 230).
 0000-05-26	A kísértő egyik tipikus eljárási módja, amit Ignác a nagy monasztikus hagyományból merít és megkülönböztetési szabályai közé beilleszt (Vö. Lgy 327).
-0000-06-11	Ignác nem valamiféle elitarizmusból fordul az anyagi és társadalmi pozíciók birtokosaihoz, valamint a tehetséges emberek felé, hanem azért, mert meggyőződése, hogy megtérésük és szorosabb Krisztus követésük révén nagyobb egyetemes jó érhető el. 
+0000-06-11	Ignác nem valamiféle elitarizmusból fordul az anyagi és társadalmi pozíciók birtokosaihoz, valamint a tehetséges emberek felé, hanem azért, mert meggyőződése, hogy megtérésük és szorosabb Krisztus követésük révén nagyobb egyetemes jó érhető el.
 0000-06-18	Ignác leírásának bibliai alapja Jn 8,44, ahol Jézus embergyilkosnak nevezi a sátánt. Ignác gyakran használja „az emberi nem ellensége” kifejezést is.
 0000-06-28	Az önmagunk ellen kifejtett erő nem valamiféle önpusztításra utal, hanem a rendezetlen ragaszkodásaink elleni küzdelemre.
 0000-07-11	A gonosz lélek tipikus tulajdonsága Ignác szerint, hogy a lelki vigasz ellen harcol (Vö. Lgy 317, 329).
 0000-07-13	A vigasz Isten ajándéka, a vigasztalanság pedagógiai eszköz a kezében. Ignác Lelkigyakorlataiban számos segítséget ad, hogy megtanuljunk helyesen viselkedni úgy a vigasz, mint a vigasztalanság idején (Vö. Lgy 318-324).
 0000-07-16	Ignác egyik döntési-választási módszere, amellyel „kívülről” segít nézni önmagunkat és helyzetünket (Vö. Lgy 185).
-0000-08-21	A szikra a bensőleg megosztott emberre utal, aki nem képes arra, hogy egy adott dologban teljes szívvel elkötelezze magát. 
+0000-08-21	A szikra a bensőleg megosztott emberre utal, aki nem képes arra, hogy egy adott dologban teljes szívvel elkötelezze magát.
 0000-09-10	Szent Ignác Lelkigyakorlataiban napi két exament, azaz az eltelt időszakra való visszatekintést javasol (Lgy 24-43). Ő maga naponta többször is végzett rövid villámexameneket, hogy tudatosítsa, mennyire él Isten jelenlétében.
 0000-09-12	A szikra magán viseli a tekintélyelvű társadalom vonását, ugyanakkor mély igazságot is kifejez: a kritika helyét, idejét és körülményeit úgy kell megválasztani, hogy javulást lehessen tőle remélni.
 0000-09-13	Szent Ignác eljárásmódjának kettős sajátossága, hogy alaposan megfontolja és mérlegeli a dolgokat, mielőtt cselekedne, majd pedig visszatekint és kiértékel, hogy a tanulságokat levonva legközelebb még hatékonyabban és gyümölcsözőbben járhasson el.
@@ -415,9 +415,9 @@ $megj="0000-01-01	Szent Ignác ezt a gondolatot – ha nem is pontosan ebben a f
 0000-11-11	Fontos döntési-választási szabály, különösen akkor, amikor a döntés nem annyira a benső megmozdulások, vigaszok és vigasztalanságok megkülönböztetése révén születik, hanem inkább értelmi megfontolás alapján (Vö. Lgy 184). Ignác ugyanis tisztában van vele, hogy racionálisnak tűnő döntéseinkkel sokszor valamely dologhoz való rendezetlen ragaszkodásainkat leplezzük.
 0000-11-12	Fontos megkülönböztetési szabály részlete (Lgy 329), amelyet a július 11-i szikrával együtt értünk meg jobban. A szabály már feltételezi a benső megmozdulásokra való spirituális fogékonyságot, így Ignác inkább a Lelkigyakorlatok 2. hetétől kezdve alkalmazza, amikor a lelkigyakorlatozó már fogékonyabb benső, spirituális történésekre.
 0000-11-13	Ignác részletes szabályokat ad az aggályosság hasznáról és útvesztőiről, illetve az aggályos lelkülettel való bánásmódhoz (Vö. Lgy 345-351).
-0000-11-14	A <a href=\'http://szikrak.jezsuita.hu/09/12\'>szeptember 12</a>-i szikra variánsa. Ld. a hozzá fűzött jegyzetet. 
+0000-11-14	A <a href=\'http://szikrak.jezsuita.hu/09/12\'>szeptember 12</a>-i szikra variánsa. Ld. a hozzá fűzött jegyzetet.
 0000-11-15	Az egyházias érzület (<i>sentire cum Ecclesia</i>) egyik szabálya (Vö. Lgy 365). Ignác meggyőződése, hogy ugyanaz a Lélek vezeti az Egyházat, mint hierarchikus struktúrájú közösséget és az Egyházon belül a hívő embert. Mindez nem zárja ki a feszültség lehetőségét.
-0000-11-17	A banálisan hangzó szikrát akkor értjük meg jobban, ha tudjuk, milyen nagy hangsúlyt fektetett Szent Ignác a kommunikációra, a másik meghallgatására, megértésére és a megfontolt, kiegyensúlyozott véleményalkotásra. 
+0000-11-17	A banálisan hangzó szikrát akkor értjük meg jobban, ha tudjuk, milyen nagy hangsúlyt fektetett Szent Ignác a kommunikációra, a másik meghallgatására, megértésére és a megfontolt, kiegyensúlyozott véleményalkotásra.
 0000-11-21	Megkülönböztetési szabály (Vö. Lgy 321), amely a vigasztalansággal való bánásmódra vonatkozik.
 0000-11-22	Ezért fontos, hogy vigasztalanság idején lehetőleg ne hozzunk, illetve ne változtassunk meg fontos döntéseket (Vö. Lgy 318).
 0000-11-28	Választási szabály (Vö. Lgy 186), amely abban segít, hogy minél objektívebb módon, ragaszkodásainktól szabadabban szemléljük saját helyzetünket és annak lehetőségeit.
