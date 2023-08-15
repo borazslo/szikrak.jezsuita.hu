@@ -1,5 +1,5 @@
 <?php
-$url = 'http://devserver.hu/szikrak.jezsuita.hu';
+$url = 'https://szikrak.jezsuita.hu';
 $pageTitle = '<a href="'.$url.'">Ignáci Szikrák</a>';
 $pageDescription = 'Aki erre nem sajnálja a fáradságot, az a Szikrákat olvasva megismerheti Loyolai Ignácot, a róla alkotott sablonos elképzelések közül kilépő, az isteni és emberi dolgokban egyaránt nagyszerűen tájékozódó koraújkori szentet. És megismerheti egy „normális” lelkiség alapköveit is, amelyben az izzó istenszeretet jó megfér a világban való tájékozódás képességével... A legismertebb ignáci jelmondat (Mindent Isten nagyobb dicsőségére!) így kaphat új tartalmat, és így segíthet abban, hogy töredezett világunkra új szemmel tekintsünk. (Lukács János SJ tartományfőnök előszava nyomán)';
 $pageCategory = 'spirituality';
